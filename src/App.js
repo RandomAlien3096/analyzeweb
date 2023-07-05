@@ -1,5 +1,6 @@
 import React from 'react'
 
+import './app.css';
 import { Navbar, Maps, ScrollToTop, Footer } from './components';
 import { Contact, Services, Header } from './containers';
 
