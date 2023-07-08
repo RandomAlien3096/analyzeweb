@@ -1,19 +1,27 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './navbar.css';
+
 import logo_color from '../../rsrc/logo/logo_color.png';
+import { IoMdMenu, IoMdFingerPrint } from 'react-icons/io';
+import { RiHome6Line } from 'react-icons/ri';
+import { HiOutlineCubeTransparent, HiOutlinePaperAirplane } from 'react-icons/hi';
 
 
 const Menu = () => (
   <>
+    <RiHome6Line />
     <p>
       Inicio
     </p>
+    <IoMdFingerPrint />
     <p>
       Nosotros
     </p>
+    <HiOutlineCubeTransparent />
     <p>
       Servicios
     </p>
+    <HiOutlinePaperAirplane />
     <p>
       Contacto
     </p>
@@ -52,7 +60,7 @@ const Navbar = () => {
       </div>
       <div className = 'analyzeweb__navbar-menu2' ref = {menuRef}>
         <button className='analyzeweb__navbar-menu2_trigger' onClick={() => setOpen(!open)}>
-          <h3>Menu</h3>
+          <h3>Menu</h3><IoMdMenu />
         </button>
         <div className={`analyzeweb__navbar-menu2_dropdown ${open? 'active': 'inactive'}`}>
           <div className='analyzeweb__navbar-menu2_dropdown-links'>
