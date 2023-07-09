@@ -3,8 +3,8 @@ import './services.css';
 
 const Services = () => {
   return (
-    <div>
-        Services
+    <div className = 'analyzeweb__services'>
+        
     </div>
   )
 }

@@ -1,0 +1,21 @@
+.analyzeweb__header{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    width: 100vw;
+    height: 100vh;
+    padding-top: 9rem;
+    border: 1px solid red;
+}
+
+#blob {
+    background: rgb(71,201,220);
+background: linear-gradient(90deg, 
+                             rgba(71,201,220,1) 0%, 
+                             rgba(124,70,192,1) 50%, 
+                             rgba(223,178,142,1) 98%);
+    position: absolute;
+    height: 500px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+} 

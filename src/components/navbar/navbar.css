@@ -83,7 +83,7 @@
 
 .analyzeweb__navbar-menu2_dropdown{
     position: absolute;
-    margin-top: 3.5rem;
+    margin-top: 4.5rem;
     width: 180px;
     height: 250px;
     background-color: #fff;
@@ -125,6 +125,7 @@
 @media screen and (max-width: 1050px) {
     .analyzeweb__navbar-menu2{
         display: flex;
+        right: 6vw;
     }
     .analyzeweb__navbar-links{
         display: none;
@@ -133,10 +134,17 @@
         display: flex;
         margin-right: 1.5rem;
     }
-    .analyzeweb__navbar-menu2{
-        right: 6vw;
+    .analyzeweb__navbar-logo img{
+        transform: scale(0.75);
     }
     .analyzeweb__navbar-logo p{
+        display: none;
+    }
+    .analyzeweb__navbar-menu2_trigger{
+        width: 60px;
+        height: 60px;
+    }
+    .analyzeweb__navbar-menu2_trigger h3{
         display: none;
     }
 }
