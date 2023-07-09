@@ -8,6 +8,7 @@
     padding-left: 9%;
     padding-right: 9%;
     position: fixed;
+    z-index: 3;
 }
 
 .analyzeweb__navbar-logo {
