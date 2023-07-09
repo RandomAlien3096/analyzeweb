@@ -1,21 +1,126 @@
 .analyzeweb__header{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     font-family: 'Montserrat';
     width: 100vw;
     height: 100vh;
     padding-top: 9rem;
-    border: 1px solid red;
+    padding-left: 9%;
+    padding-right: 9%;
 }
 
-#blob {
-    background: rgb(71,201,220);
-background: linear-gradient(90deg, 
-                             rgba(71,201,220,1) 0%, 
-                             rgba(124,70,192,1) 50%, 
-                             rgba(223,178,142,1) 98%);
+.analyzeweb__header-content {
+    padding-top: 9%;
+    display: block;
+    flex-direction: column;
+    width: 45%;
+    height: 50%;
+    z-index: 2;
+}
+
+.analyzeweb__header-content h2{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 400%;
+    color: #20272C;
+}
+
+.analyzeweb__header-content_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: flex-end;
+    width: 220px;
+    height: 50px;
+    margin-top: 6%;
+}
+
+.analyzeweb__header-content_button button{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    border: none;
+    background-color: #FACEA6;
+    cursor: pointer;
+}
+
+.analyzeweb__header-content_button p{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #20272C;
+}
+
+/*------------------------- GRAPHICS SECTION -----------------------*/
+.analyzeweb__header-graphics{
+    position: relative;
+    right: 0;
+    width: 55%;
+    height: 55%;
+}
+.analyzeweb__header-graphics_blob {
+    aspect-ratio: 1;
+    height: 100%;
+    animation: rotate 40s infinite;
+}
+#blob:nth-child(1) {
+    right: 30%;
+    top: 10%;
+    background: rgba(71,201,220,.90);
     position: absolute;
-    height: 500px;
+    height: 50%;
     aspect-ratio: 1;
     border-radius: 50%;
+
+    animation: rotate 15s infinite;
+    filter: blur(200px);
 } 
+
+#blob:nth-child(2) {
+    top: 22%;
+    left: 10%;
+    background: rgba(124,70,192,.7);
+    position: absolute;
+    height: 50%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+
+    animation: rotate 20s infinite;
+    filter: blur(200px);
+} 
+
+#blob:nth-child(3) {
+    top: 35%;
+    right: 15%;
+    background: rgba(223,178,142,.7);
+    position: absolute;
+    height: 50%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+
+    animation: rotate 25s infinite;
+    filter: blur(200px);
+} 
+
+@keyframes rotate {
+    from {
+        rotate: 0deg;
+    }
+    50% {
+        scale: 1 1.5;
+    }
+    to {
+        rotate: 360deg;
+    }
+}
+
+#graphs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: color-burn;
+    z-index: 2;
+}
+
+/*---------------------------------------------------------------------*/
