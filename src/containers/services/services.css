@@ -1,0 +1,45 @@
+.analyzeweb__services{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid red;
+}
+
+.analyzeweb__services-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 6vw;
+
+    border: 1px solid blue;
+}
+
+.analyzeweb__services-title h2 {
+    font-size: 3vw;
+    font-weight: 900;
+    color: #20272C;
+}
+
+.analyzeweb__services-carousel {
+    display: grid;
+    height: 12vw;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+
+    border: 1px solid cyan;
+}
+
+.analyzeweb__services-carousel > #card {
+    width: 300px;
+    height: 100px;
+    background-color: antiquewhite;
+}
