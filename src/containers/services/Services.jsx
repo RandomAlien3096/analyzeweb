@@ -1,5 +1,14 @@
 import React from 'react';
 import './services.css';
+import pred from '../../rsrc/imgs/modelos_pred.jpg';
+import des_web from '../../rsrc/imgs/desarrollo_web.jpg';
+import opt from '../../rsrc/imgs/Optimizacion_bi.jpg';
+import data_gov from '../../rsrc/imgs/data_gov.jpg';
+import data_strat from '../../rsrc/imgs/data_strat.jpg';
+
+import ImageSlider from './ImageSlider';
+
+
 
 const Services = () => {
   return (
@@ -9,18 +18,23 @@ const Services = () => {
       </div>
       <div className = 'analyzeweb__services-carousel'>
         <div id = 'card'>
+          <img src = {pred} className='image' draggable = 'false' />
           <h4>Modelos Predictivos</h4>
         </div>
         <div id = 'card'>
+          <img src = {des_web} className='image' draggable = 'false' />
           <h4>Desarrollo Web</h4>
         </div>
         <div id = 'card'>
+          <img src = {opt} className='image' draggable = 'false' />
           <h4>Optimizacion Financiera BI</h4>
         </div>
         <div id = 'card'>
+          <img src = {data_gov} className='image' draggable = 'false' />
           <h4>Gobernacion de Data</h4>
         </div>
         <div id = 'card'>
+          <img src = {data_strat} className='image' draggable = 'false' />
           <h4>Estrategias de Informacion</h4>
         </div>
       </div>   

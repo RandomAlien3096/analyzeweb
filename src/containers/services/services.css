@@ -26,20 +26,31 @@
 
 .analyzeweb__services-carousel {
     display: grid;
-    height: 12vw;
+    height: 32vmin;
     grid-auto-flow: column;
     scroll-behavior: auto;
-    gap: 1.2rem;
+    margin-left: 6vmin;
+    margin-right: 6vmin;
+    gap: 2vmin;
     overflow-y: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
+    user-select: none;
 
     border: 1px solid cyan;
 }
 
 .analyzeweb__services-carousel > #card {
-    width: 300px;
-    height: 100px;
+    width: 24vmin;
+    height: 32vmin;
     background-color: antiquewhite;
+    border: 1px solid red;
+}
+
+#card > .image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% center;
 }
