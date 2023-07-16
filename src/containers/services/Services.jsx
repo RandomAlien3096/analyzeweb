@@ -6,9 +6,12 @@ import opt from '../../rsrc/imgs/Optimizacion_bi.jpg';
 import data_gov from '../../rsrc/imgs/data_gov.jpg';
 import data_strat from '../../rsrc/imgs/data_strat.jpg';
 
-import { Parallax } from 'react-scroll-parallax';
+import { Parallax, useParallax } from 'react-scroll-parallax';
 
 const Services = () => {
+
+
+
   return (
     <div className = 'analyzeweb__services'>
       <div className = 'analyzeweb__services-title'>
@@ -16,25 +19,28 @@ const Services = () => {
       </div>
       <div className = 'analyzeweb__services-carousel'>
         <div id='card'>
-          <img src = {pred} className='image_card' draggable = 'false' />
+          {/* <Parallax translateX={[-30, 30]} id = 'card'> */}
+            <div className='overlay_card' ></div>
+            <img src = {pred} className='image_card' draggable = 'false' />
+          {/* </Parallax> */}
         </div>
-          {/* <img src = {pred} className='image' draggable = 'false' /> */}
-          {/* <h4>Modelos Predictivos</h4> */}
-        
-
         <div id = 'card'>
+          <div className='overlay_card'></div>
           <img src = {des_web} className='image_card' draggable = 'false' />
           {/* <h4>Desarrollo Web</h4> */}
         </div>
         <div id = 'card'>
+          <div className='overlay_card'></div>
           <img src = {opt} className='image_card' draggable = 'false' />
           {/* <h4>Optimizacion Financiera BI</h4> */}
         </div>
         <div id = 'card'>
+          <div className='overlay_card'></div>
           <img src = {data_gov} className='image_card' draggable = 'false' />
           {/* <h4>Gobernacion de Data</h4> */}
         </div>
         <div id = 'card'>
+          <div className='overlay_card'></div>
           <img src = {data_strat} className='image_card' draggable = 'false' />
           {/* <h4>Estrategias de Informacion</h4> */}
         </div>

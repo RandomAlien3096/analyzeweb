@@ -120,20 +120,18 @@
     grid-template-columns: 30% 70%;
 }
 
-
-
+/* ---------------------------------------------------------------- */
 
 @media screen and (max-width: 1050px) {
+    .analyzeweb__navbar{
+        padding-left: 3vmin;
+    }
     .analyzeweb__navbar-menu2{
         display: flex;
-        right: 6vw;
+        right: 0;
     }
     .analyzeweb__navbar-links{
         display: none;
-    }
-    .analyzeweb__navbar-menu{
-        display: flex;
-        margin-right: 1.5rem;
     }
     .analyzeweb__navbar-logo img{
         transform: scale(0.75);
