@@ -129,6 +129,8 @@
     .analyzeweb__navbar-menu2{
         display: flex;
         right: 0;
+        width: 60px;
+        padding-right: 3vmin;
     }
     .analyzeweb__navbar-links{
         display: none;
@@ -148,8 +150,3 @@
     }
 }
 
-@media screen and (max-width: 700px) {
-    .analizeweb__navbar-menu2{
-        right: 4.5vw;
-    }
-}
