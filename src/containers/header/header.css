@@ -4,18 +4,20 @@
     font-family: 'Montserrat';
     width: 100vw;
     height: 100vh;
-    padding-top: 23vmin;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vmin;
     padding-left: 9%;
     padding-right: 6%;
     overflow: hidden;
 }
 
 .analyzeweb__header-content {
-    padding-top: 3rem;
-    display: block;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 35vw;
-    height: 50%;
+    height: 100%;
     z-index: 2;
 }
 
