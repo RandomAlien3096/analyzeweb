@@ -5,15 +5,27 @@ import des_web from '../../rsrc/imgs/desarrollo_web.jpg';
 import opt from '../../rsrc/imgs/Optimizacion_bi.jpg';
 import data_gov from '../../rsrc/imgs/data_gov.jpg';
 import data_strat from '../../rsrc/imgs/data_strat.jpg';
+import { Circle, CircleRings } from '../../rsrc/icons';
 
-import { Parallax, useParallax } from 'react-scroll-parallax';
+import { Parallax } from 'react-scroll-parallax';
 
 const Services = () => {
-
-
-
   return (
     <div className = 'analyzeweb__services'>
+      <div className = 'analyzeweb__services-overlap'>
+        <Parallax
+          translateY={[-50, 50]}
+          translateX={[-10, 90]}>
+            <Circle className = 'overlap_circle' />
+        </Parallax>
+        <Parallax
+          translateY={[-50, 50]}
+          translateX={[10, -90]}
+          rotate={[-360, 0]}>
+            <CircleRings className = 'overlap_circleRings' />
+        </Parallax>
+      </div>
+
       <div className = 'analyzeweb__services-title'>
         <h2>TU FUTURO A LA MEDIDA</h2>
       </div>

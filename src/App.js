@@ -8,7 +8,7 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 
 const App = () => {
   return (
-    <ParallaxProvider scrollAxis = 'horizontal'>
+    <ParallaxProvider>
       <div className = 'App'>
         <div className = 'landing__pg'>
           <Navbar />
