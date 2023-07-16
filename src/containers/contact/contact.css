@@ -1,0 +1,104 @@
+.analyzeweb__contact{
+    display: flex;
+    align-items: center;
+    background: #20272C;
+    height: 100vh;
+    width: 100vw;
+}
+
+.analyzeweb__contact-content{
+    position: relative;
+    flex-direction: column;
+    padding: 6vmin;
+    width: 100vw;
+    height: fit-content;
+    text-align: right;
+    z-index: 2;
+}
+
+.analyzeweb__contact-content h2{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 6vw;
+    color: #DFB28E;
+}
+
+.analyzeweb__contact-content_button{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25vmin;
+    height: 7.5vw;
+    bottom: 6vmin;
+    right: 35vmin;
+}
+
+.analyzeweb__contact-content_button > #trigger{
+    height: 5vmin;
+    width: 20vmin;
+    font-weight: 700;
+    background-color: rgba(241, 93, 170, 0.3);
+    border: 0;
+    border-radius: 50px;
+    color: #DFB28E;
+}
+
+/*------------------------- GRAPHICS SECTION -----------------------*/
+.analyzeweb__contact-graphics{
+    position: absolute;
+    width: 60vh;
+    height: 60vh;
+    animation: rotate 60s infinite;
+}
+
+.analyzeweb__contact-graphics > #blob:nth-child(1) {
+    right: 30%;
+    top: 10%;
+    background: rgba(71,201,220,.90);
+    position: absolute;
+    width: 35vmin;
+    aspect-ratio: 1;
+    border-radius: 50%;
+
+    animation: rotate 25s infinite;
+    filter: blur(200px);
+} 
+
+.analyzeweb__contact-graphics > #blob:nth-child(2) {
+    top: 40%;
+    left: 10%;
+    background: rgba(124,70,192,.7);
+    position: absolute;
+    width: 35vmin;
+    aspect-ratio: 1;
+    border-radius: 50%;
+
+    animation: rotate 30s infinite;
+    filter: blur(200px);
+} 
+
+.analyzeweb__contact-graphics > #blob:nth-child(3) {
+    top: 25%;
+    right: 15%;
+    background: rgba(223,178,142,.7);
+    position: absolute;
+    width: 35vmin;
+    aspect-ratio: 1;
+    border-radius: 50%;
+
+    animation: rotate 35s infinite;
+    filter: blur(200px);
+} 
+
+@keyframes rotate {
+    from {
+        rotate: 0deg;
+    }
+    50% {
+        scale: 1 1.25;
+    }
+    to {
+        rotate: 720deg;
+    }
+}
