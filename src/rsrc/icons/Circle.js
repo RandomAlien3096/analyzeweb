@@ -10,7 +10,7 @@ const SvgCircle = ({ title, titleId, ...props }) => (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <circle fill="#333" cx={275} cy={275} r={250} />
+    <circle fill="#20272c" cx={275} cy={275} r={250} />
   </svg>
 );
 export default SvgCircle;

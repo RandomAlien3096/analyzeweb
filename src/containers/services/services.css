@@ -3,7 +3,7 @@
     flex-direction: column;
     font-family: 'Montserrat';
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     z-index: 1;   
 }
 
@@ -19,7 +19,7 @@
 .analyzeweb__services-title h2 {
     font-size: 3vw;
     font-weight: 700;
-    color: rgb(32, 39, 44);
+    color: #4C5256;
 }
 
 .analyzeweb__services-carousel {
@@ -64,18 +64,21 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    height: 80vmin;
-    border: 1px solid red;
+    height: 50vmin;
 }
 
 .overlap_circle{
+    display: flex;
     position: relative;
-    height: 35vmin;
-    width: 35vmin;
+    height: 25vmin;
+    width: 25vmin;
+    opacity: 0.8;
+    /* filter: blur(0.5vmin); */
 }
 
 .overlap_circleRings{
     position: relative;
-    height: 35vmin;
-    width: 35vmin;
+    height: 25vmin;
+    width: 25vmin;
+    opacity: 0.8;
 }

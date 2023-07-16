@@ -70,7 +70,7 @@
     top: 10%;
     background: rgba(71,201,220,.90);
     position: absolute;
-    width: 25vw;
+    width: 35vmin;
     aspect-ratio: 1;
     border-radius: 50%;
 
@@ -83,7 +83,7 @@
     left: 10%;
     background: rgba(124,70,192,.7);
     position: absolute;
-    width: 25vw;
+    width: 35vmin;
     aspect-ratio: 1;
     border-radius: 50%;
 
@@ -96,7 +96,7 @@
     right: 15%;
     background: rgba(223,178,142,.7);
     position: absolute;
-    width: 25vw;
+    width: 35vmin;
     aspect-ratio: 1;
     border-radius: 50%;
 

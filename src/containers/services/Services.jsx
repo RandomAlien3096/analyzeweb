@@ -14,12 +14,12 @@ const Services = () => {
     <div className = 'analyzeweb__services'>
       <div className = 'analyzeweb__services-overlap'>
         <Parallax
-          translateY={[-50, 50]}
+          translateY={[-40, 50]}
           translateX={[-10, 90]}>
             <Circle className = 'overlap_circle' />
         </Parallax>
         <Parallax
-          translateY={[-50, 50]}
+          translateY={[-40, 50]}
           translateX={[10, -90]}
           rotate={[-360, 0]}>
             <CircleRings className = 'overlap_circleRings' />
@@ -31,10 +31,8 @@ const Services = () => {
       </div>
       <div className = 'analyzeweb__services-carousel'>
         <div id='card'>
-          {/* <Parallax translateX={[-30, 30]} id = 'card'> */}
-            <div className='overlay_card' ></div>
-            <img src = {pred} className='image_card' draggable = 'false' />
-          {/* </Parallax> */}
+          <div className='overlay_card' ></div>
+          <img src = {pred} className='image_card' draggable = 'false' />
         </div>
         <div id = 'card'>
           <div className='overlay_card'></div>
@@ -57,6 +55,7 @@ const Services = () => {
           {/* <h4>Estrategias de Informacion</h4> */}
         </div>
       </div>   
+
     </div>
   )
 }
