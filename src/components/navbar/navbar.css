@@ -5,8 +5,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-left: 9%;
-    padding-right: 9%;
+    padding: 6vmin;
     position: fixed;
     z-index: 3;
 }
@@ -21,6 +20,12 @@
     width: 120px;
     height: 120px;
 }
+
+.analyzeweb__navbar-logo > #logo_dark {
+    position: absolute;
+    height: 125px;
+}
+
 
 .analyzeweb__navbar-logo p {
     font-family: 'Montserrat';
@@ -60,7 +65,7 @@
 }
 
 .analyzeweb__navbar-menu2 button{
-    background-color: #fff;
+    background-color: transparent;
     justify-content: space-around;
     font-family: 'Montserrat';
 }
@@ -77,6 +82,11 @@
     border-radius: 30px;
 }
 
+.icon_color{
+    color: #DFB28E;
+    border: 2px solid #DFB28E;
+}
+
 .analyzeweb__navbar-menu2_trigger h3{
     margin-top: 0;
     font-weight: 400;
@@ -85,6 +95,7 @@
 .analyzeweb__navbar-menu2_dropdown{
     position: absolute;
     margin-top: 4.5rem;
+    margin-right: 12vmin;
     width: 180px;
     height: 250px;
     background-color: #fff;
@@ -97,7 +108,7 @@
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
-    transition: 500ms ease;
+    transition: 2s ease-in-out;
     z-index: 4;
 }
 
@@ -106,7 +117,7 @@
     display: none;
     /* visibility: hidden; */
     transform: translateY(-30px);
-    transition: 500ms ease;
+    transition: 2s ease-in-out;
     z-index: -3;
 }
 
