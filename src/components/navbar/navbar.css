@@ -25,6 +25,13 @@
     height: 125px;
 }
 
+.analyzeweb__navbar-logo img[id="logo"] ~ p#logoText {
+    color: #20272C; 
+  }
+  
+  .analyzeweb__navbar-logo img[id="logo_dark"] ~ p#logoText {
+    color: white; 
+  }
 
 .analyzeweb__navbar-logo p {
     font-family: 'Montserrat';
@@ -82,8 +89,8 @@
 }
 
 .icon_color{
-    color: #DFB28E;
-    border: 2px solid #DFB28E;
+    color: #BED2D5;
+    border: 2px solid #BED2D5;
 }
 
 .analyzeweb__navbar-menu2_trigger h3{

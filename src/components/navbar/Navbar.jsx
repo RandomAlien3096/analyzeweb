@@ -74,14 +74,14 @@ const Navbar = () => {
             <img src={logo_dark} alt="main logo" 
             id="logo_dark"
             className={logo ? 'show' : ''} />
-            <p>analyzeweb</p>
+            <p id='logoText'>analyzeweb</p>
           </>
         ) : (
           <>
             <img src={logo_color} alt="main logo" 
             id="logo" 
             className={logo ? 'show' : ''}/>
-            <p>analyzeweb</p>
+            <p id='logoText'>analyzeweb</p>
           </>
         )}
       </div>
