@@ -1,0 +1,119 @@
+.analyzeweb__footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    background-color: #20272C;
+    font-family: 'Montserrat';
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+/* ------------------------------------------------------------------ */
+.analyzeweb__footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    height: 50%;
+}
+
+.analyzeweb__footer-content_nosotros,
+.analyzeweb__footer-content_servicio,
+.analyzeweb__footer-content_contacto {
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    width: 32%;
+    height: 100%;
+    gap: 9px;
+}
+
+.analyzeweb__footer-content h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.analyzeweb__footer-content p{
+    color: #BED2D5;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.analyzeweb__footer-content_nosotros-icons,
+.analyzeweb__footer-content_servicio-wp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 75%;
+    height: auto;
+}
+
+.analyzeweb__footer-content_nosotros-icons svg,
+.analyzeweb__footer-content_servicio-wp svg {
+    height: 24px;
+    width: 24px;
+}
+
+.analyzeweb__footer-content_servicio-wp {
+    justify-content: left;
+    gap: 0.5vmin;
+}
+
+/* ------------------------------------------------------------- */
+
+.analyzeweb__footer-logo {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: fit-content;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.analyzeweb__footer-logo > #dark_logo {
+    height: 70%;
+}
+
+.analyzeweb__footer-logo h2 {
+    color: white;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 1050px) {
+    .analyzeweb__footer{
+        padding: 0;
+    }
+    .analyzeweb__footer-content {
+        width: 70vw;
+        height: 30%;
+    }
+    .analyzeweb__footer-content h2 {
+        font-size: 20px;
+    }
+    .analyzeweb__footer-content p{
+        font-size: 11px;
+    }
+    .analyzeweb__footer-content_nosotros-icons,
+    .analyzeweb__footer-content_servicio-wp {
+        width: 75%;
+        height: 20px;
+    }
+    .analyzeweb__footer-logo {
+        height: 50%;
+    }
+    .analyzeweb__footer-logo > #dark_logo {
+        height: 70%;
+    }
+    .analyzeweb__footer-logo h2 {
+        font-size: 18px;
+    }
+    .analyzeweb__footer-content_nosotros-icons svg,
+    .analyzeweb__footer-content_servicio-wp svg {
+        height: 15px;
+        width: 15px;
+    }
+    
+}
