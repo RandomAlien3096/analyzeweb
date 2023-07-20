@@ -142,6 +142,7 @@
 @media screen and (max-width: 1050px) {
     .analyzeweb__navbar{
         padding-left: 3vmin;
+        width: 100vw;
     }
     .analyzeweb__navbar-menu2{
         display: flex;
@@ -167,3 +168,31 @@
     }
 }
 
+@media screen and (max-width: 650px) {
+    .analyzeweb__navbar{
+        width: 100vw;
+        height: 10vh;
+        margin-top: 1.5rem;
+    }
+    .analyzeweb__navbar-logo img{
+        height: 10vh;
+        width: auto;
+    }
+    .analyzeweb__navbar-menu2{
+        height: 50px;
+        width: 50px;
+        margin-right: 1.5rem;
+        padding: 0;
+    }
+    .analyzeweb__navbar-menu2_trigger{
+        height: 50px;
+        width: 50px;
+    }
+    .analyzeweb__navbar-logo > #logo_dark {
+        height: 10vh;
+        width: auto;
+    }
+    .analyzeweb__navbar-menu2_dropdown{
+        margin-right: 7.5rem;
+    }
+}
