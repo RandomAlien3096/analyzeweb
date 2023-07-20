@@ -105,7 +105,7 @@
         height: 50%;
     }
     .analyzeweb__footer-logo > #dark_logo {
-        height: 70%;
+        height: 15vmin;
     }
     .analyzeweb__footer-logo h2 {
         font-size: 18px;
