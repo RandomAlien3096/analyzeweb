@@ -53,9 +53,9 @@ const Navbar = () => {
   const changeLogo = () => {
     console.log(window.scrollY)
     const vhEquivalent = 2 * window.innerHeight;
-    console.log('vhEquivalent', vhEquivalent)
-    console.log('innerHeight', window.innerHeight)
-    console.log('totalHeight', window.document.body.offsetHeight)
+    // console.log('vhEquivalent', vhEquivalent)
+    // console.log('innerHeight', window.innerHeight)
+    // console.log('totalHeight', window.document.body.offsetHeight)
     if(window.scrollY >= vhEquivalent){
       setLogo(true)
     }
