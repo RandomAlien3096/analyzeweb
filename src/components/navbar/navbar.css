@@ -172,11 +172,15 @@
     .analyzeweb__navbar{
         width: 100vw;
         height: 10vh;
-        margin-top: 1.5rem;
+        margin-top: 0.5rem;
+    }
+    .analyzeweb__navbar-logo{
+        height: 10vh;
+        width: auto;
     }
     .analyzeweb__navbar-logo img{
         height: 10vh;
-        width: auto;
+        width: 10vh;
     }
     .analyzeweb__navbar-menu2{
         height: 50px;
@@ -187,11 +191,10 @@
     .analyzeweb__navbar-menu2_trigger{
         height: 50px;
         width: 50px;
-        border: 2px solid black;
     }
     .analyzeweb__navbar-logo > #logo_dark {
         height: 10vh;
-        width: auto;
+        width: 10vh;
     }
     .analyzeweb__navbar-menu2_dropdown{
         margin-right: 7.5rem;
