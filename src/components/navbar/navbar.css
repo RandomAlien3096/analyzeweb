@@ -84,7 +84,7 @@
     height: 45px;
     cursor: pointer;
     font-size: 22px;
-    border: 2px solid black;
+    border: 2px solid #20272C;
     border-radius: 30px;
 }
 
@@ -106,7 +106,7 @@
     height: 250px;
     background-color: #fff;
     font-size: 18px;
-    border: 2px solid #000;
+    border: 2px solid #20272C;
     border-radius: 15px;
 }
 
@@ -187,6 +187,7 @@
     .analyzeweb__navbar-menu2_trigger{
         height: 50px;
         width: 50px;
+        border: 2px solid black;
     }
     .analyzeweb__navbar-logo > #logo_dark {
         height: 10vh;
