@@ -147,5 +147,6 @@
     }
     .analyzeweb__header-content_button{
         transform: scale(2.5);
+        cursor: pointer;
     }
 }

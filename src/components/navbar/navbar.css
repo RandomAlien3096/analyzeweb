@@ -148,7 +148,7 @@
         display: flex;
         right: 0;
         width: 60px;
-        padding-right: 3vmin;
+        margin-right: 3vmin;
     }
     .analyzeweb__navbar-links{
         display: none;
