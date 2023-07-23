@@ -122,12 +122,10 @@
 
 @media screen and (max-width: 650px) {
     .analyzeweb__contact{
-        border: 1px solid red;
     }
     .analyzeweb__contact-content{
         display: flex;
         align-items: center;
-        border: 1px solid red;
     }
     .analyzeweb__contact-content h2{
         font-size: 6vmin;
