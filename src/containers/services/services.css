@@ -4,7 +4,7 @@
     font-family: 'Montserrat';
     width: 100vw;
     height: 110vh;
-    z-index: 1;   
+    z-index: 1;
 }
 
 .analyzeweb__services-title{
@@ -81,4 +81,25 @@
     height: 25vmin;
     width: 25vmin;
     opacity: 0.8;
+}
+
+@media screen and (max-width: 650px) {
+    .analyzeweb__services-overlap{
+        height: 40vh;
+    }
+    .analyzeweb__services-title{
+        height: 8vh;
+    }
+    .analyzeweb__services-title h2{
+        font-size: 26px;
+    }
+    .analyzeweb__services-carousel{
+        margin: 3vw;
+        gap: 3vmin;
+    }
+    #card{
+        transform: translate(-180%, 0);
+        width: 52vmin;
+        height: 84vmin;
+    }
 }
