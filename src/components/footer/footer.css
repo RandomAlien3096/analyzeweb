@@ -114,6 +114,47 @@
     .analyzeweb__footer-content_servicio-wp svg {
         height: 15px;
         width: 15px;
+    }   
+}
+
+@media screen and (max-width: 650px) {
+    .analyzeweb__footer{
+        flex-direction: column;
+    }
+    .analyzeweb__footer-content{
+        display: flex;
+        flex-wrap: wrap;
+        height: 75%;
+        width: 100%;
+    }
+    .analyzeweb__footer-content_nosotros,
+    .analyzeweb__footer-content_servicio,
+    .analyzeweb__footer-content_contacto{
+        margin-left: 6vmin;
+        margin-right: 6vmin;
+        height: 30%;
+        width: 100%;
+        gap: 6px;
+    }
+    .analyzeweb__footer-content h2 {
+        color: white;
+        font-weight: 400;
+        font-size: 18px;
     }
     
+    .analyzeweb__footer-content p{
+        color: #BED2D5;
+        font-weight: 300;
+        font-size: 10px;
+    }
+    .analyzeweb__footer-logo{
+        height: 20%;
+        margin-bottom: 6vmin;
+    }
+    .analyzeweb__footer-content_nosotros-icons{
+        width: 50%;
+    }
+    .analyzeweb__footer-logo h2{
+        font-weight: 500;
+    }
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './contact.css';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Contact = () => {
   return (
@@ -9,9 +10,11 @@ const Contact = () => {
         <h2>nuestra proxima</h2>
         <h2>obsesion</h2>
         <div className = 'analyzeweb__contact-content_button'>
-          <button id='trigger'>
-            <span>Hablemos con un cafe</span>
-          </button>
+          <Link to = '/ContactPg' className='analyzeweb__contact-content_button'>
+            <button type='button' id='trigger'>
+              <span>Hablemos con un cafe</span>
+            </button>
+          </Link>
         </div>
       </div>
       <div className = 'analyzeweb__contact-graphics'>
