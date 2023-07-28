@@ -1,0 +1,11 @@
+.analyzeweb__contactPg{
+    height: 150vh;
+    width: 100vw;
+}
+
+
+
+.analyzeweb__contactPg-footer{
+    position: absolute;
+    bottom: 0;
+}
