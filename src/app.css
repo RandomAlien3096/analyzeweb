@@ -15,52 +15,7 @@ a {
     text-decoration: none;
 }
 
-/* For WebKit browsers (Chrome, Safari, etc.) */
-::-webkit-scrollbar {
-  width: 10px;
-  background-color: #F5F5F5;
-}
 
-::-webkit-scrollbar-track {
-  border-radius: 10px;
-  background: rgba(0, 0, 0, 0.1);
-  border: 1px solid #ccc;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background: linear-gradient(left, #fff, #e4e4e4);
-  border: 1px solid #aaa;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #fff;
-}
-
-::-webkit-scrollbar-thumb:active {
-  background: linear-gradient(left, #22ADD4, #1E98BA);
-}
-
-/* For Firefox */
-/* Style the Firefox scrollbar */
-/* You can adjust the width, background color, and other styles to your liking */
-/* Note that scrollbar styling is generally limited in Firefox, so it may not look exactly the same as in WebKit browsers */
-
-/* Track */
-/* You can add border-radius to make it rounded like the WebKit version */
-/* However, Firefox might not support the same level of customization */
-/* This is just a basic example */
-@supports (scrollbar-width: 10px) {
-  *{
-    scrollbar-width: 9px;
-    scrollbar-color: linear-gradient(left, #fff, #e4e4e4);
-  }
-}
-
-.scale-up-center {
-	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
 
  @-webkit-keyframes scale-up-center {
     0% {

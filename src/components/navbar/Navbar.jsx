@@ -51,7 +51,7 @@ const Navbar = () => {
   //change logo on scroll
   const [logo, setLogo] = useState(false);
   const changeLogo = () => {
-    console.log(window.scrollY)
+    // console.log(window.scrollY)
     const vhEquivalent = 2 * window.innerHeight;
     // console.log('vhEquivalent', vhEquivalent)
     // console.log('innerHeight', window.innerHeight)
