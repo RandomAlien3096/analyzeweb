@@ -121,6 +121,9 @@
 }
 
 @media screen and (max-width: 650px) {
+    .analyzeweb__contact{
+        overflow: hidden;
+    }
     .analyzeweb__contact-content{
         display: flex;
         align-items: center;
@@ -138,5 +141,14 @@
     .analyzeweb__contact-content_button > #trigger{
         height: 80%;
         width: 100%;
+    }
+    .analyzeweb__contact-graphics{
+        width: 80%;
+        height: 50%;
+    }
+    .analyzeweb__contact-graphics > #blob:nth-child(1),
+    .analyzeweb__contact-graphics > #blob:nth-child(2),
+    .analyzeweb__contact-graphics > #blob:nth-child(3){
+        filter: blur(30px);
     }
 }

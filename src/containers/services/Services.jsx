@@ -14,13 +14,13 @@ const Services = () => {
     <div className = 'analyzeweb__services'>
       <div className = 'analyzeweb__services-overlap'>
         <Parallax
-          translateY={[-40, 50]}
-          translateX={[-10, 90]}>
+          translateY={[-90, 90]}
+          translateX={[-50, 100]}>
             <Circle className = 'overlap_circle' />
         </Parallax>
         <Parallax
-          translateY={[-40, 50]}
-          translateX={[10, -90]}
+          translateY={[-90, 90]}
+          translateX={[50, -100]}
           rotate={[-360, 0]}>
             <CircleRings className = 'overlap_circleRings' />
         </Parallax>
@@ -37,23 +37,23 @@ const Services = () => {
         <div id = 'card'>
           <div className='overlay_card'></div>
           <img src = {des_web} className='image_card' draggable = 'false' />
-          {/* <h4>Desarrollo Web</h4> */}
+          
         </div>
         <div id = 'card'>
           <div className='overlay_card'></div>
           <img src = {opt} className='image_card' draggable = 'false' />
-          {/* <h4>Optimizacion Financiera BI</h4> */}
+        
         </div>
         <div id = 'card'>
           <div className='overlay_card'></div>
           <img src = {data_gov} className='image_card' draggable = 'false' />
-          {/* <h4>Gobernacion de Data</h4> */}
+        
         </div>
         <div id = 'card'>
           <div className='overlay_card'></div>
           <img src = {data_strat} className='image_card' draggable = 'false' />
-          {/* <h4>Estrategias de Informacion</h4> */}
-        </div>
+          
+        </div> 
       </div>   
 
     </div>

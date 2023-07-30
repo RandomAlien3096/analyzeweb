@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 3vmin;
-    padding-left: 9%;
+    padding-left: 6%;
     padding-right: 6%;
     overflow: hidden;
 }
@@ -57,7 +57,7 @@
 /*------------------------- GRAPHICS SECTION -----------------------*/
 .analyzeweb__header-graphics{
     position: relative;
-    width: 49vw;
+    width: 50vw;
     height: 60%;
 }
 .analyzeweb__header-graphics_blob {
@@ -129,6 +129,7 @@
     .analyzeweb__header-content{
         width: 100vw;
         align-items: center;
+        overflow: hidden;
     }
     .analyzeweb__header-content h2{
         font-size: 9vmin;
