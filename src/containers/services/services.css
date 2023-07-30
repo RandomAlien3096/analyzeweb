@@ -89,6 +89,7 @@
 @media screen and (max-width: 650px) {
     .analyzeweb__services-overlap{
         height: 40vh;
+        overflow: hidden;
     }
     .analyzeweb__services-title{
         height: 8vh;

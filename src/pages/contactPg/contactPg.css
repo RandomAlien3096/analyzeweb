@@ -1,9 +1,21 @@
 .analyzeweb__contactPg{
+    display: flex;
+    flex-direction: column;
     height: 150vh;
+    width: 100vw;
+    border: 1px solid blue;
+}
+.analyzeweb__contactPg-navbar{
     width: 100vw;
 }
 
-
+.analyzeweb__contactPg-title{
+    display: flex;
+    margin-top: 25vmin;
+    width: 100vw;
+    height: 10vh;
+    border: 1px solid red;
+}
 
 .analyzeweb__contactPg-footer{
     position: absolute;

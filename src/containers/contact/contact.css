@@ -122,6 +122,8 @@
 
 @media screen and (max-width: 650px) {
     .analyzeweb__contact{
+        display: flex;
+        justify-content: center;
         overflow: hidden;
     }
     .analyzeweb__contact-content{
@@ -143,8 +145,8 @@
         width: 100%;
     }
     .analyzeweb__contact-graphics{
-        width: 80%;
-        height: 50%;
+        width: 60%;
+        height: 45%;
     }
     .analyzeweb__contact-graphics > #blob:nth-child(1),
     .analyzeweb__contact-graphics > #blob:nth-child(2),

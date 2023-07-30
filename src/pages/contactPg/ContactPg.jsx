@@ -11,6 +11,11 @@ function DatagovPg() {
             <div className = "analyzeweb__contactPg-navbar">
                 <Navbar />
             </div>
+            <div className = "analyzeweb__contactPg-title">
+                <h1>Hablemos con un cafe.</h1>
+                <h1>Platicanos sobre tu proyecto</h1>
+                <h4>Creemos algo juntos</h4>
+            </div>
             <div className = "analyzeweb__contactPg-footer">
                 <Footer />
             </div>

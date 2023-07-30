@@ -127,7 +127,7 @@
 
 @media screen and (max-width: 650px) {
     .analyzeweb__header-content{
-        width: 100vw;
+        width: 80vw;
         align-items: center;
         overflow: hidden;
     }
@@ -136,8 +136,8 @@
     }
     .analyzeweb__header-graphics{
         position: absolute;
-        width: 100vw;
-        height: 50vh;
+        width: 70vw;
+        height: 30vh;
     }
     #graphs{
         width: 100%;
