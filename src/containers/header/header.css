@@ -143,8 +143,17 @@
         height: 100%;
     }
     .analyzeweb__header-content_button{
-        transform: scale(2.5);
+        position: relative;
+        height: 10vmin;
+        width: 40vw;
         cursor: pointer;
+    }
+    .analyzeweb__header-content_button > #trigger{
+        height: 80%;
+        width: 100%;
+    }
+    .analyzeweb__header-content_button p{
+        font-size: 9px;
     }
     #blob:nth-child(1),
     #blob:nth-child(2),

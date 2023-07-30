@@ -7,7 +7,7 @@
 
 body {
   background:  #F9FBFD;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 a {
@@ -49,7 +49,7 @@ a {
   }
 }
 
-@media screen and (max-width: 700px){
+/* @media screen and (max-width: 700px){
   .section__padding{
       padding: 0;
   }
@@ -65,4 +65,4 @@ a {
   .section__margin{
       margin: 4rem 2rem;
   }
-}
+} */

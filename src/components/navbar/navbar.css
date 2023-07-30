@@ -8,7 +8,6 @@
     padding: 6vmin;
     position: fixed;
     z-index: 3;
-    overflow-x: hidden;
 }
 
 .analyzeweb__navbar-logo {
@@ -173,7 +172,7 @@
     .analyzeweb__navbar{
         width: 100vw;
         height: 10vh;
-        overflow: hidden;
+        position: fixed;
     }
     .analyzeweb__navbar-logo{
         height: 10vh;
