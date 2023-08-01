@@ -5,8 +5,15 @@
     width: 100vw;
     border: 1px solid blue;
 }
+
 .analyzeweb__contactPg-navbar{
     width: 100vw;
+}
+
+.analyzeweb__contactPg-content{
+    height: 50vh;
+    width: 30vw;
+    border: 1px solid red; 
 }
 
 .analyzeweb__contactPg-content_title{
@@ -14,10 +21,38 @@
     flex-direction: column;
     margin-top: 25vmin;
     width: 30vw;
+    border: 1px solid peru;
+}
+
+.analyzeweb__contactPg-form{
+    width: 50vw;
     border: 1px solid red;
 }
 
+.analyzeweb__contactPg-form_title{
+    border: 1px solid peru;
+}
+
+.analyzeweb__contactPg-form_form{
+    border: 1px solid peru;
+}
+
+.analyzeweb__contactPg-form_form-name{
+    border: 1px solid cyan;
+}
+
+.analyzeweb__contactPg-form_form-email{
+    border: 1px solid cyan;
+}
+
+.analyzeweb__contactPg-form_form-text{
+    border: 1px solid cyan;
+}
+
+.analyzeweb__contactPg-form_form-button{
+    border: 1px solid cyan;
+}
+
 .analyzeweb__contactPg-footer{
-    position: absolute;
-    bottom: 0;
+    display: flex;
 }
