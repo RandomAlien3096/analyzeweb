@@ -9,11 +9,11 @@
     width: 100vw;
 }
 
-.analyzeweb__contactPg-title{
+.analyzeweb__contactPg-content_title{
     display: flex;
+    flex-direction: column;
     margin-top: 25vmin;
-    width: 100vw;
-    height: 10vh;
+    width: 30vw;
     border: 1px solid red;
 }
 
