@@ -54,6 +54,14 @@ function DatagovPg() {
                         type = 'text' 
                         name = 'name_input' required 
                     />
+                    <div id = 'email_title'>
+                        <h5>Email</h5>
+                    </div>
+                    <input 
+                        id = 'email_input'
+                        type = 'email'
+                        name = 'email_input' required 
+                    />
                 </form>
             </div>
             <div className = "analyzeweb__contactPg-footer">
