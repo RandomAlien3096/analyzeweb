@@ -27,11 +27,11 @@ function DatagovPg() {
       };
 
     return (
+        <>
+        <div className = "analyzeweb__contactPg-navbar">
+            <Navbar />
+        </div>
         <div className = "analyzeweb__contactPg">
-
-            <div className = "analyzeweb__contactPg-navbar">
-                <Navbar />
-            </div>
 
             <div className = "analyzeweb__contactPg-content">
                 <div className = "analyzeweb__contactPg-content_title">
@@ -94,10 +94,11 @@ function DatagovPg() {
 
 
             </div>
-            <div className = "analyzeweb__contactPg-footer">
-                <Footer />
-            </div>
         </div>
+        <div className = "analyzeweb__contactPg-footer">
+            <Footer />
+        </div>
+        </>
     )
   }
   
