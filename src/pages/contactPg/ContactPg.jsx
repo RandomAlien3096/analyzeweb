@@ -5,15 +5,17 @@ import emailjs from '@emailjs/browser';
 
 function DatagovPg() {
     const serviceID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+    const templateID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+    const publicKEY = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
     const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_ebesa9d', 
-                         'template_846mobc', 
+        emailjs.sendForm(serviceID, 
+                         templateID, 
                          form.current, 
-                         '1oviDjIxcKzRsgPPd')
+                         publicKEY)
  
           .then((result) => {
               console.log(result.text);
@@ -35,7 +37,7 @@ function DatagovPg() {
 
             <div className = "analyzeweb__contactPg-content">
                 <div className = "analyzeweb__contactPg-content_title">
-                    <h1>Hablemos con un cafe.</h1>
+                    <h1>Hablemos con un cafe</h1>
                     <h1>Platicanos sobre tu proyecto</h1>
                     <h4>Creemos algo juntos</h4>
                 </div>

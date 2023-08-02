@@ -2,12 +2,15 @@
     width: 100vw;
 }
 
+.analyzeweb__contactPg-navbar svg{
+    color: #20272C;
+}
+
 .analyzeweb__contactPg{
     display: flex;
     align-items: center;
     height: 100vh;
     width: 100vw;
-    border: 1px solid blue;
 }
 
 .analyzeweb__contactPg-content{
@@ -16,17 +19,23 @@
     align-items: center;
     height: 50vh;
     width: 50vw;
+    margin: 6vmin;
 }
 
 .analyzeweb__contactPg-content_title{
     display: flex;
     flex-direction: column;
-    width: 30vw;
+    width: 90%;
 }
 
 .analyzeweb__contactPg-content_title h1, h4{
     font-family: 'Montserrat';
+    font-weight: 800;
     color: #20272C;
+}
+
+.analyzeweb__contactPg-content_title h4{
+    color: #1A6DAF;
 }
 
 .analyzeweb__contactPg-form{
@@ -58,11 +67,13 @@
     width: 65%;
     padding-top: 1.5vmin;
     padding-bottom: 1.5vmin;
-    border: 1px solid red;
 }
 
 .analyzeweb__contactPg-form_form-name,
 .analyzeweb__contactPg-form_form-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     width: 100%;
     height: 20%;
     padding-right: 1.5vmin;
@@ -72,13 +83,18 @@
 .analyzeweb__contactPg-form_form-name input[type = text],
 .analyzeweb__contactPg-form_form-email input[type = email],
 .analyzeweb__contactPg-form_form-text textarea {
-    background-color: #DFB28E;
+    background-color: rgba(223, 178, 142, 0.9);
     border: none;
     width: 100%;
     height: 50%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .analyzeweb__contactPg-form_form-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     width: 100%;
     height: 40%;
     padding-right: 1.5vmin;
@@ -94,6 +110,17 @@
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+.analyzeweb__contactPg-form_form-button button{
+    width: 180px;
+    height: 35px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(37, 171, 190, 0.6);
+    color: #F9FBFD;
+    font-weight: 400;
+    cursor: pointer;
 }
 
 .analyzeweb__contactPg-footer{
