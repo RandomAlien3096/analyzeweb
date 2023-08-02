@@ -16,14 +16,17 @@
     align-items: center;
     height: 50vh;
     width: 50vw;
-    border: 1px solid red; 
 }
 
 .analyzeweb__contactPg-content_title{
     display: flex;
     flex-direction: column;
     width: 30vw;
-    border: 1px solid peru;
+}
+
+.analyzeweb__contactPg-content_title h1, h4{
+    font-family: 'Montserrat';
+    color: #20272C;
 }
 
 .analyzeweb__contactPg-form{
@@ -33,31 +36,64 @@
     align-items: center;
     width: 50vw;
     height: 50vh;
-    border: 1px solid red;
+    margin: 6vmin;
+    background-color: rgba(241, 93, 170, 0.3);
 }
 
+.analyzeweb__contactPg-form h2, h5, button {
+    font-family: 'Montserrat';
+    color: #1A6DAF;
+    font-weight: 400;
+} 
+
 .analyzeweb__contactPg-form_title{
-    border: 1px solid peru;
+    width: 65%;
 }
 
 .analyzeweb__contactPg-form_form{
-    border: 1px solid peru;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70%;
+    width: 65%;
+    padding-top: 1.5vmin;
+    padding-bottom: 1.5vmin;
+    border: 1px solid red;
 }
 
-.analyzeweb__contactPg-form_form-name{
-    border: 1px solid cyan;
+.analyzeweb__contactPg-form_form-name,
+.analyzeweb__contactPg-form_form-email {
+    width: 100%;
+    height: 20%;
+    padding-right: 1.5vmin;
+    padding-left: 1.5vmin;
 }
 
-.analyzeweb__contactPg-form_form-email{
-    border: 1px solid cyan;
+.analyzeweb__contactPg-form_form-name input[type = text],
+.analyzeweb__contactPg-form_form-email input[type = email],
+.analyzeweb__contactPg-form_form-text textarea {
+    background-color: #DFB28E;
+    border: none;
+    width: 100%;
+    height: 50%;
 }
 
 .analyzeweb__contactPg-form_form-text{
-    border: 1px solid cyan;
+    width: 100%;
+    height: 40%;
+    padding-right: 1.5vmin;
+    padding-left: 1.5vmin;
+}
+
+.analyzeweb__contactPg-form_form-text textarea{
+    height: 70%;
+    resize: none;
 }
 
 .analyzeweb__contactPg-form_form-button{
-    border: 1px solid cyan;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .analyzeweb__contactPg-footer{

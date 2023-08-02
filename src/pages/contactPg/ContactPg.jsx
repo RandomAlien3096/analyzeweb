@@ -42,7 +42,7 @@ function DatagovPg() {
             </div>
             <div className = "analyzeweb__contactPg-form">
                 <div className = "analyzeweb__contactPg-form_title">
-                    <h2>Dinos, como podemos ayudar?</h2>
+                    <h2>Como podemos ayudar?</h2>
                 </div>
 
 
@@ -58,17 +58,19 @@ function DatagovPg() {
                         <input 
                             id = "name_input" 
                             type = 'text' 
+                            placeholder = 'Nombre'
                             name = 'name_input' required 
                         />
                     </div>
 
                     <div className="analyzeweb__contactPg-form_form-email">
                         <div id = 'email_title'>
-                            <h5>Email</h5>
+                            <h5>E-mail</h5>
                         </div>
                         <input 
                             id = 'email_input'
                             type = 'email'
+                            placeholder = 'E-mail'
                             name = 'email_input' required 
                         />
                     </div>
@@ -80,6 +82,7 @@ function DatagovPg() {
                         <textarea
                             id = 'text_input'
                             name = 'text_input' 
+                            placeholder = 'Descripcion del proyecto'
                         />
                     </div>
 
