@@ -158,15 +158,12 @@
         font-size: 5vmin;
     }
     .analyzeweb__contactPg-content_title h4{
-        font-size: 3vmin;
+        font-size: 3.5vmin;
         padding-top: 1rem;
     }
     .analyzeweb__contactPg-form{
         width: 75vw;
         margin-top: 3vmin;
         margin-bottom: 3vmin;
-    }
-    .analyzeweb__contactPg-footer{
-        height: 60vh;
     }
 }
