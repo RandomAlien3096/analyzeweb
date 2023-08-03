@@ -28,6 +28,11 @@
     width: 90%;
 }
 
+.analyzeweb__contactPg-content_title h1{
+    font-size: 3vw;
+    padding-top: 1rem;
+}
+
 .analyzeweb__contactPg-content_title h1, h4{
     font-family: 'Montserrat';
     font-weight: 800;
@@ -36,6 +41,8 @@
 
 .analyzeweb__contactPg-content_title h4{
     color: #1A6DAF;
+    font-size: 1.5vw;
+    padding-top: 3rem;
 }
 
 .analyzeweb__contactPg-form{
@@ -45,7 +52,7 @@
     align-items: center;
     width: 50vw;
     height: 50vh;
-    margin: 6vmin;
+    margin: 12vmin;
     background-color: rgba(241, 93, 170, 0.3);
 }
 
@@ -125,4 +132,10 @@
 
 .analyzeweb__contactPg-footer{
     display: flex;
+}
+
+@media screen and (max-width: 1050px){
+    .analyzeweb__contactPg-form{
+        margin: 6vmin;
+    }
 }
