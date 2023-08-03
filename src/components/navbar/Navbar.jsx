@@ -19,11 +19,11 @@ const Menu = () => (
         Inicio
       </Link>
     </p>
-    <Link to = 'UsPg'>
+    <Link to = '/UsPg'>
       <IoMdFingerPrint />
     </Link>
     <p>
-      <Link to = 'UsPg'>
+      <Link to = '/UsPg'>
         Nosotros
       </Link>
     </p>

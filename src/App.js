@@ -39,8 +39,8 @@ const App = () => {
             }
           />
           <Route path="/ContactPg" element={<ContactPg />} />
-          <Route path="/UsPg" element={ <UsPg /> } />
-          <Route path="/ServicesPg" element={ <ServicesPg /> } />
+          <Route path="/UsPg" element={<UsPg />} />
+          <Route path="/ServicesPg" element={<ServicesPg />} />
           <Route path="/DatagovPg" element={<DatagovPg />} />
           <Route path="/DatastratPg" element={<DatastratPg />} />
           <Route path="/DesarrolloPg" element={<DesarrolloPg />} />

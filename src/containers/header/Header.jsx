@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import './header.css';
 
 import graphs from '../../rsrc/imgs/abstract_data.jpg';
@@ -13,7 +14,9 @@ const Header = () => {
         <h2>DIGITAL</h2>
         <div className = 'analyzeweb__header-content_button'>
           <button id = 'trigger'>
-            <p>Descubre lo que hacemos</p>
+            <Link to = '/UsPg'>
+              <p>Descubre lo que hacemos</p>
+            </Link>
           </button>
         </div>
       </div>
