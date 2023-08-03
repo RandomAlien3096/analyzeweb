@@ -120,12 +120,14 @@
 @media screen and (max-width: 650px) {
     .analyzeweb__footer{
         flex-direction: column;
+        height: 55vh;
     }
     .analyzeweb__footer-content{
         display: flex;
         flex-wrap: wrap;
         height: 75%;
         width: 100%;
+        margin-top: 6vmin;
     }
     .analyzeweb__footer-content_nosotros,
     .analyzeweb__footer-content_servicio,

@@ -130,12 +130,43 @@
     cursor: pointer;
 }
 
-.analyzeweb__contactPg-footer{
+/* .analyzeweb__contactPg-footer{
     display: flex;
-}
+} */
 
 @media screen and (max-width: 1050px){
     .analyzeweb__contactPg-form{
         margin: 6vmin;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .analyzeweb__contactPg{
+        flex-direction: column;
+        justify-content: center;
+    }   
+    .analyzeweb__contactPg-content{
+        height: 15vh;
+        width: 100vw;
+        margin-top: 0vmin;
+        margin-bottom: 0vmin;
+    }
+    .analyzeweb__contactPg-content_title{
+        align-items: center;
+    }
+    .analyzeweb__contactPg-content_title h1{
+        font-size: 5vmin;
+    }
+    .analyzeweb__contactPg-content_title h4{
+        font-size: 3vmin;
+        padding-top: 1rem;
+    }
+    .analyzeweb__contactPg-form{
+        width: 75vw;
+        margin-top: 3vmin;
+        margin-bottom: 3vmin;
+    }
+    .analyzeweb__contactPg-footer{
+        height: 60vh;
     }
 }
