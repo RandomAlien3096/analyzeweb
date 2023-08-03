@@ -74,15 +74,15 @@
 .overlap_circle{
     display: flex;
     position: relative;
-    height: 25vmin;
-    width: 25vmin;
+    height: 15vmin;
+    width: 15vmin;
     opacity: 0.8;
 }
 
 .overlap_circleRings{
     position: relative;
-    height: 25vmin;
-    width: 25vmin;
+    height: 15vmin;
+    width: 15vmin;
     opacity: 0.8;
 }
 
@@ -90,6 +90,20 @@
     .analyzeweb__services-overlap{
         height: 40vh;
         overflow: hidden;
+    }
+    .overlap_circle{
+        display: flex;
+        position: relative;
+        height: 25vmin;
+        width: 25vmin;
+        opacity: 0.8;
+    }
+    
+    .overlap_circleRings{
+        position: relative;
+        height: 25vmin;
+        width: 25vmin;
+        opacity: 0.8;
     }
     .analyzeweb__services-title{
         height: 8vh;

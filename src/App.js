@@ -5,7 +5,8 @@ import './app.css';
 import { Navbar, Maps, ScrollToTop, Footer } from './components';
 import { Contact, Services, Header } from './containers';
 import { ContactPg, DatagovPg, DatastratPg, 
-        DesarrolloPg, ModelosPg, OptimizacionPg } from './pages';
+        DesarrolloPg, ModelosPg, OptimizacionPg, 
+        UsPg, ServicesPg } from './pages';
 
 import { ParallaxProvider } from 'react-scroll-parallax';
 
@@ -38,6 +39,8 @@ const App = () => {
             }
           />
           <Route path="/ContactPg" element={<ContactPg />} />
+          <Route path="/UsPg" element={ <UsPg /> } />
+          <Route path="/ServicesPg" element={ <ServicesPg /> } />
           <Route path="/DatagovPg" element={<DatagovPg />} />
           <Route path="/DatastratPg" element={<DatastratPg />} />
           <Route path="/DesarrolloPg" element={<DesarrolloPg />} />

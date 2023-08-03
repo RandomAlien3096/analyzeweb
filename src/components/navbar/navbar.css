@@ -88,9 +88,16 @@
     border-radius: 30px;
 }
 
+.analyzeweb__navbar-menu2_trigger svg{
+    color: #20272C;
+}
+
 .icon_color{
     color: #BED2D5;
     border: 2px solid #BED2D5;
+}
+.icon_color svg{
+    color: #BED2D5;
 }
 
 .analyzeweb__navbar-menu2_trigger h3{

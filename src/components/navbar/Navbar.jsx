@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './navbar.css';
-
+import { HashLink as Link } from 'react-router-hash-link';
 import logo_color from '../../rsrc/logo/logo_color.png';
 import logo_dark from '../../rsrc/logo/logo_dark.png';
 import { IoMdMenu, IoMdFingerPrint } from 'react-icons/io';
@@ -10,21 +10,38 @@ import { HiOutlineCubeTransparent, HiOutlinePaperAirplane } from 'react-icons/hi
 
 const Menu = () => (
   <>
-    <RiHome6Line />
+
+    <Link to = '/'>
+      <RiHome6Line />
+    </Link>
     <p>
-      Inicio
+      <Link to = '/'>
+        Inicio
+      </Link>
     </p>
-    <IoMdFingerPrint />
+    <Link to = 'UsPg'>
+      <IoMdFingerPrint />
+    </Link>
     <p>
-      Nosotros
+      <Link to = 'UsPg'>
+        Nosotros
+      </Link>
     </p>
-    <HiOutlineCubeTransparent />
+    <Link to = '/ServicesPg'>
+      <HiOutlineCubeTransparent />
+    </Link>
     <p>
-      Servicios
+      <Link to = '/ServicesPg'>
+        Servicios
+      </Link>
     </p>
-    <HiOutlinePaperAirplane />
+    <Link to = '/ContactPg'>
+      <HiOutlinePaperAirplane />
+    </Link>
     <p>
-      Contacto
+      <Link to = '/ContactPg'>
+        Contacto
+      </Link>  
     </p>
   </>
 )
@@ -71,17 +88,21 @@ const Navbar = () => {
       <div className="analyzeweb__navbar-logo">
         {logo ? (
           <>
+            <Link to = '/'>
             <img src={logo_dark} alt="main logo" 
             id="logo_dark"
             className={logo ? 'show' : ''} />
-            <p id='logoText'>analyzeweb</p>
+            </Link>
+            <p id='logoText'><Link to = '/'>analyzeweb</Link></p>
           </>
         ) : (
           <>
+            <Link to = '/'>
             <img src={logo_color} alt="main logo" 
             id="logo" 
             className={logo ? 'show' : ''}/>
-            <p id='logoText'>analyzeweb</p>
+            </Link>
+            <p id='logoText'><Link to = '/'>analyzeweb</Link></p>
           </>
         )}
       </div>

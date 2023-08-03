@@ -61,8 +61,8 @@
     height: 60%;
 }
 .analyzeweb__header-graphics_blob {
-    width: 100%;
-    height: 100%;
+    width: 75%;
+    height: 80%;
     animation: rotate 35s infinite;
 }
 #blob:nth-child(1) {
