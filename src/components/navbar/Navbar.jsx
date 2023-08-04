@@ -7,6 +7,8 @@ import { IoMdMenu, IoMdFingerPrint } from 'react-icons/io';
 import { RiHome6Line } from 'react-icons/ri';
 import { HiOutlineCubeTransparent, HiOutlinePaperAirplane } from 'react-icons/hi';
 
+import { useLocation } from 'react-router-dom';
+
 
 const Menu = () => (
   <>
@@ -49,7 +51,7 @@ const Menu = () => (
 
 const Navbar = () => {
   const [ open, setOpen ] = useState(false);
-  
+
   let menuRef = useRef();
   
   useEffect(() => {
@@ -67,18 +69,37 @@ const Navbar = () => {
   });
   //change logo on scroll
   const [logo, setLogo] = useState(false);
+  const location = useLocation();
   const changeLogo = () => {
     // console.log(window.scrollY)
-    const vhEquivalent = 2 * window.innerHeight;
+    if(location.pathname == '/UsPg') {
+      const vhEquivalent = 0.35 * window.innerHeight;
+      if(window.scrollY >= vhEquivalent){
+        setLogo(false)
+      }
+      else {
+        setLogo(true)
+      }
+    }
+    else {
+      const vhEquivalent = 2 * window.innerHeight;
+      if(window.scrollY >= vhEquivalent){
+        setLogo(true)
+      }
+      else {
+        setLogo(false)
+      }
+    }
     // console.log('vhEquivalent', vhEquivalent)
     // console.log('innerHeight', window.innerHeight)
     // console.log('totalHeight', window.document.body.offsetHeight)
-    if(window.scrollY >= vhEquivalent){
-      setLogo(true)
-    }
-    else {
-      setLogo(false)
-    }
+    // const vhEquivalent = 2 * window.innerHeight;
+    // if(window.scrollY >= vhEquivalent){
+    //   setLogo(true)
+    // }
+    // else {
+    //   setLogo(false)
+    // }
   };
 
   window.addEventListener('scroll', changeLogo);
