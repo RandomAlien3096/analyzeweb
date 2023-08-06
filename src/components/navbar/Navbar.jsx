@@ -6,6 +6,7 @@ import logo_dark from '../../rsrc/logo/logo_dark.png';
 import { IoMdMenu, IoMdFingerPrint } from 'react-icons/io';
 import { RiHome6Line } from 'react-icons/ri';
 import { HiOutlineCubeTransparent, HiOutlinePaperAirplane } from 'react-icons/hi';
+import { Bounce } from 'react-awesome-reveal';
 
 import { useLocation } from 'react-router-dom';
 
