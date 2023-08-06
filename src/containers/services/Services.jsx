@@ -6,6 +6,7 @@ import opt from '../../rsrc/imgs/Optimizacion_bi.jpg';
 import data_gov from '../../rsrc/imgs/data_gov.jpg';
 import data_strat from '../../rsrc/imgs/data_strat.jpg';
 import { Circle, CircleRings } from '../../rsrc/icons';
+import { JackInTheBox } from 'react-awesome-reveal';
 
 import { Parallax } from 'react-scroll-parallax';
 
@@ -27,7 +28,9 @@ const Services = () => {
       </div>
 
       <div className = 'analyzeweb__services-title'>
-        <h2>TU FUTURO A LA MEDIDA</h2>
+        <JackInTheBox>
+          <h2>TU FUTURO A LA MEDIDA</h2>
+        </JackInTheBox>
       </div>
       <div className = 'analyzeweb__services-carousel'>
         <div id='card'>
