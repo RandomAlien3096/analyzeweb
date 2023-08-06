@@ -1,7 +1,7 @@
 .analyzeweb__usPg{
     display: flex;
     flex-direction: column;
-    height: 200vh;
+    height: auto;
     width: 100vw;
 }
 .analyzeweb__usPg-header{
@@ -237,6 +237,10 @@
 /* ------------------------------------------------------ */
 
 .analyzeweb__usPg-content_promise {
-    margin-bottom: 9vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 65vh;
     border: 1px solid cyan;
 }

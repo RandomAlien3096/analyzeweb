@@ -3,6 +3,7 @@ import './usPg.css';
 import { Navbar, Footer } from '../../components';
 import img_bg from '../../rsrc/imgs/frontend_bg.jpg';
 import graph_web from '../../rsrc/imgs/us_graph.png';
+import graph_flow from '../../rsrc/imgs/datagov_flow.png';
 
 function UsPg() {
   return (
@@ -97,15 +98,20 @@ function UsPg() {
                 </div>
                 {/* ----------------------------------------------------------- */}
                 <div className = 'analyzeweb__usPg-content_promise'>
-                    <h3>Nuestra promesa hacia ti</h3>
-                    <p>
-                        En AnalyzeWeb.tech, estamos comprometidos con la innovación, 
-                        la calidad y la satisfacción del cliente. Valoramos la ética 
-                        en todos nuestros procesos y buscamos siempre superar las 
-                        expectativas de nuestros clientes. Nuestro equipo altamente 
-                        capacitado y experimentado está listo para enfrentar cualquier 
-                        desafío y ayudarte a impulsar tu negocio hacia el éxito.
-                    </p>
+                    <div className = 'analyzeweb__usPg-content_promise-text'>
+                        <h3>Nuestra promesa hacia ti</h3>
+                        <p>
+                            En AnalyzeWeb.tech, estamos comprometidos con la innovación, 
+                            la calidad y la satisfacción del cliente. Valoramos la ética 
+                            en todos nuestros procesos y buscamos siempre superar las 
+                            expectativas de nuestros clientes. Nuestro equipo altamente 
+                            capacitado y experimentado está listo para enfrentar cualquier 
+                            desafío y ayudarte a impulsar tu negocio hacia el éxito.
+                        </p>
+                    </div>
+                    <div className = 'analyzeweb__usPg-content_promise-grpah'>
+                        <img />
+                    </div>
                 </div>
             </div>
         </div>
