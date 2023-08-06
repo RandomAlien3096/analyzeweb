@@ -2,6 +2,7 @@ import React from 'react';
 import './usPg.css';
 import { Navbar, Footer } from '../../components';
 import img_bg from '../../rsrc/imgs/frontend_bg.jpg';
+import graph_web from '../../rsrc/imgs/us_graph.png';
 
 function UsPg() {
   return (
@@ -24,37 +25,77 @@ function UsPg() {
                 </div>    
             </div>
             <div className = 'analyzeweb__usPg-content'>
+                {/* ----------------------------------------------------------- */}
                 <div className = 'analyzeweb__usPg-content_space'>
-                    <h3>Nosotros encontraremos tu espacio perfecto</h3>
-                    <p>
-                        Cuando decimos espacio, nos referimos al espacio 
-                        en la web o en tus datos, donde podemos ayudarte a 
-                        alcanzar el máximo potencial de tu negocio.
-                    </p>
-                    <p>
-                        En AnalyzeWeb.tech, somos una empresa líder en el 
-                        campo de la gobernanza de datos, desarrollo web 
-                        de alta gama, modelos predictivos y optimización 
-                        de modelos de negocio. Nuestro enfoque se centra 
-                        en brindarte las soluciones perfectas para tu 
-                        presencia en línea y el manejo eficiente de tus datos.
-                    </p>
+                    <div className = 'analyzeweb__usPg-content_space-text'>
+                        <h3>Nosotros encontraremos tu espacio perfecto</h3>
+                        <p>
+                            Cuando decimos espacio, nos referimos al espacio 
+                            en la web o en tus datos, donde podemos ayudarte a 
+                            alcanzar el máximo potencial de tu negocio.
+                        </p>
+                        <p>
+                            En AnalyzeWeb.tech, somos una empresa líder en el 
+                            campo de la gobernanza de datos, desarrollo web 
+                            de alta gama, modelos predictivos y optimización 
+                            de modelos de negocio. Nuestro enfoque se centra 
+                            en brindarte las soluciones perfectas para tu 
+                            presencia en línea y el manejo eficiente de tus datos.
+                        </p>
+                    </div>
+                    <div className = 'analyzeweb__usPg-content_space-graph'>
+                        <div id = 'graph_text'>
+                            <h3>20 +</h3>
+                            <p>Proyectos Exitosos</p>
+                        </div>
+                        <img 
+                            src = {graph_web} 
+                            id = 'space_graph'
+                            alt = 'analytics of website engagement' 
+                        />
+                    </div>
                 </div>
+                {/* ----------------------------------------------------------- */}
                 <div className = 'analyzeweb__usPg-content_mision'>
-                    <h3>Como podemos ayudarte?</h3>
-                    <p>
-                        Nuestra misión es proporcionar a nuestros clientes las 
-                        mejores soluciones en términos de gobernanza de datos, 
-                        desarrollo web, modelos predictivos y optimización de 
-                        modelos de negocio. Trabajamos en estrecha colaboración 
-                        con nuestros clientes para entender sus necesidades 
-                        específicas y ofrecerles herramientas y soluciones a la 
-                        medida. Nuestro enfoque en la excelencia técnica y la 
-                        comprensión profunda de los objetivos de nuestros clientes 
-                        nos permite lograr resultados sobresalientes y contribuir 
-                        al éxito de sus empresas.
-                    </p>
+                    <div className = 'analyzeweb__usPg-content_mision-graph'>
+                        <div id = 'graph_text'>
+                            <h3>Arma tu paquete</h3>
+                        </div>
+                        <div id='graph_tiles'>
+                            <div id='tile'>
+                                <h4>Web</h4>
+                                <p>1 - 7 - correo</p>
+                            </div>
+                            <div id='tile'>
+                                <h4>Analitica</h4>
+                                <p>mes - ct/act - 3</p>
+                            </div>
+                            <div id='tile'>
+                                <h4>Almacen</h4>
+                                <p>100 Gb - Estatico</p>
+                            </div>
+                            <div id='tile'>
+                                <h4>+</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div className = 'analyzeweb__usPg-content_mision-text'>
+                        <h3>¿Como podemos ayudarte?</h3>
+                        <p>
+                            Nuestra misión es proporcionar a nuestros clientes las 
+                            mejores soluciones en términos de gobernanza de datos, 
+                            desarrollo web, modelos predictivos y optimización de 
+                            modelos de negocio. Trabajamos en estrecha colaboración 
+                            con nuestros clientes para entender sus necesidades 
+                            específicas y ofrecerles herramientas y soluciones a la 
+                            medida. Nuestro enfoque en la excelencia técnica y la 
+                            comprensión profunda de los objetivos de nuestros clientes 
+                            nos permite lograr resultados sobresalientes y contribuir 
+                            al éxito de sus empresas.
+                        </p>
+                    </div>
                 </div>
+                {/* ----------------------------------------------------------- */}
                 <div className = 'analyzeweb__usPg-content_promise'>
                     <h3>Nuestra promesa hacia ti</h3>
                     <p>

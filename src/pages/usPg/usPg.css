@@ -1,7 +1,7 @@
 .analyzeweb__usPg{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
 }
 .analyzeweb__usPg-header{
@@ -64,4 +64,179 @@
 .analyzeweb__usPg-content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18vmin;
+    margin-right: 18vmin;
+    margin-bottom: 18vmin;
+}
+
+.analyzeweb__usPg-content h3,
+.analyzeweb__usPg-content p {
+    font-family: 'Montserrat';
+    color: #1A6DAF;
+}
+
+/* ------------------------------------------------------ */
+
+.analyzeweb__usPg-content_space {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 65vh;
+}
+
+.analyzeweb__usPg-content_space-text{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    padding: 6vmin;
+    padding-right: 6vmin;
+}
+.analyzeweb__usPg-content_space-text h3{
+    font-size: 24px;
+    padding-bottom: 3rem;
+}
+.analyzeweb__usPg-content_space-text p{
+    font-size: 18px;
+    text-align: justify;
+    padding-bottom: 1rem;
+}
+
+.analyzeweb__usPg-content_space-graph{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+}
+
+.analyzeweb__usPg-content_space-graph > #graph_text{
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 80px;
+    border-radius: 9px;
+    background-color: orange;
+    box-shadow: 0 0 9px #888888;
+}
+
+.analyzeweb__usPg-content_space-graph > #graph_text h3{
+    font-size: 24px;
+    color: #F9FBFD;
+}
+.analyzeweb__usPg-content_space-graph > #graph_text p{
+    font-size: 15px;
+    color: #616366;
+}
+
+.analyzeweb__usPg-content_space-graph > #space_graph{
+    width: 75%;
+    height: 60%;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 0 9px #888888;
+}
+
+/* ------------------------------------------------------ */
+
+.analyzeweb__usPg-content_mision {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 65vh;
+}
+.analyzeweb__usPg-content_mision-graph{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 35%;
+}
+.analyzeweb__usPg-content_mision-graph > #graph_text{
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 80px;
+    border-radius: 9px;
+    background-color: orange;
+    box-shadow: 0 0 9px #888888;
+}
+.analyzeweb__usPg-content_mision-graph > #graph_text h3{
+    font-size: 24px;
+    color: #F9FBFD;
+    text-align: center;
+}
+.analyzeweb__usPg-content_mision-graph > #graph_tiles{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    width: 350px;
+    height: 350px;
+    box-shadow: 0 0 9px #888888;
+    border: 3px solid #1A6DAF;
+}
+.analyzeweb__usPg-content_mision-graph > #graph_tiles > #tile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #20272c;
+    border: 2px solid #1A6DAF;
+}
+.analyzeweb__usPg-content_mision-graph > #graph_tiles > #tile h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: #F9FBFD;
+}
+.analyzeweb__usPg-content_mision-graph > #graph_tiles > #tile p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #1A6DAF;
+}
+.analyzeweb__usPg-content_mision-graph > #graph_tiles > #tile:nth-child(4){
+    background-color: orange;
+}
+.analyzeweb__usPg-content_mision-graph > #graph_tiles > #tile:nth-child(4) h4{
+    font-size: 56px;
+}
+.analyzeweb__usPg-content_mision-text{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    padding: 6vmin;
+    padding-right: 6vmin;
+    text-align: end;
+}
+.analyzeweb__usPg-content_mision-text h3{
+    font-size: 24px;
+    padding-bottom: 3rem;
+}
+.analyzeweb__usPg-content_mision-text p{
+    font-size: 18px;
+    text-align: justify;
+    text-align-last: right;
+    padding-bottom: 1rem;
+}
+
+/* ------------------------------------------------------ */
+
+.analyzeweb__usPg-content_promise {
+    margin-bottom: 9vmin;
+    border: 1px solid cyan;
 }
