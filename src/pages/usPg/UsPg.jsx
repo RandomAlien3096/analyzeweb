@@ -109,8 +109,16 @@ function UsPg() {
                             desafío y ayudarte a impulsar tu negocio hacia el éxito.
                         </p>
                     </div>
-                    <div className = 'analyzeweb__usPg-content_promise-grpah'>
-                        <img />
+                    <div className = 'analyzeweb__usPg-content_promise-graph'>
+                        <div id = 'promise_text'>
+                            <h3>4 +</h3>
+                            <p>Años de Experiencia</p>
+                        </div>
+                        <img 
+                            src = {graph_flow} 
+                            id = 'promise_graph'
+                            alt = 'data goverment flow and pipeline'
+                        />
                     </div>
                 </div>
             </div>
