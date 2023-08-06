@@ -9,39 +9,41 @@ import { HiOutlineCubeTransparent, HiOutlinePaperAirplane } from 'react-icons/hi
 
 import { useLocation } from 'react-router-dom';
 
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+};  
 
 const Menu = () => (
   <>
-
-    <Link to = '/'>
+    <Link to = '/' onClick={scrollToTop}>
       <RiHome6Line />
     </Link>
     <p>
-      <Link to = '/'>
+      <Link to = '/' onClick={scrollToTop}>
         Inicio
       </Link>
     </p>
-    <Link to = '/UsPg'>
+    <Link to = '/UsPg' onClick={scrollToTop}>
       <IoMdFingerPrint />
     </Link>
     <p>
-      <Link to = '/UsPg'>
+      <Link to = '/UsPg' onClick={scrollToTop}>
         Nosotros
       </Link>
     </p>
-    <Link to = '/ServicesPg'>
+    <Link to = '/ServicesPg' onClick={scrollToTop}>
       <HiOutlineCubeTransparent />
     </Link>
     <p>
-      <Link to = '/ServicesPg'>
+      <Link to = '/ServicesPg' onClick={scrollToTop}>
         Servicios
       </Link>
     </p>
-    <Link to = '/ContactPg'>
+    <Link to = '/ContactPg' onClick={scrollToTop}>
       <HiOutlinePaperAirplane />
     </Link>
     <p>
-      <Link to = '/ContactPg'>
+      <Link to = '/ContactPg' onClick={scrollToTop}>
         Contacto
       </Link>  
     </p>
@@ -109,21 +111,27 @@ const Navbar = () => {
       <div className="analyzeweb__navbar-logo">
         {logo ? (
           <>
-            <Link to = '/'>
-            <img src={logo_dark} alt="main logo" 
-            id="logo_dark"
-            className={logo ? 'show' : ''} />
+            <Link to = '/'onClick={scrollToTop}>
+              <img 
+                src={logo_dark} 
+                alt="logo img for analyzeweb" 
+                id="logo_dark"
+                className={logo ? 'show' : ''} 
+              />
             </Link>
             <p id='logoText'><Link to = '/'>analyzeweb</Link></p>
           </>
         ) : (
           <>
-            <Link to = '/'>
-            <img src={logo_color} alt="main logo" 
-            id="logo" 
-            className={logo ? 'show' : ''}/>
+            <Link to = '/' onClick={scrollToTop}>
+              <img 
+                src={logo_color} 
+                alt="logo for analyzeweb" 
+                id="logo" 
+                className={logo ? 'show' : ''}
+              />
             </Link>
-            <p id='logoText'><Link to = '/'>analyzeweb</Link></p>
+            <p id='logoText'><Link to = '/' onClick={scrollToTop}>analyzeweb</Link></p>
           </>
         )}
       </div>

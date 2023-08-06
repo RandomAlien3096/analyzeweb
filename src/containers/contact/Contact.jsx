@@ -3,7 +3,7 @@ import './contact.css';
 import { HashLink as Link } from 'react-router-hash-link';
 
 const Contact = () => {
-const scrollToTop = () => {
+const scrollTop = () => {
   window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
 };
 
@@ -13,8 +13,12 @@ const scrollToTop = () => {
         <h2>haz de tu proyecto</h2>
         <h2>nuestra proxima</h2>
         <h2>obsesion</h2>
-        <Link to = '/ContactPg' className='analyzeweb__contact-content_button' onClick={scrollToTop}>
-          <button type='button' id='trigger'>
+        <Link 
+          to = '/ContactPg' 
+          onClick={scrollTop}
+          className='analyzeweb__contact-content_button' 
+        >
+          <button type='button' id='trigger' onClick={scrollTop}>
             <span>Hablemos con un cafe</span>
           </button>
         </Link>

@@ -36,6 +36,7 @@
     width: 20vw;
     height: 3vw;
     margin-top: 6%;
+    z-index: 2;
 }
 
 .analyzeweb__header-content_button button{
