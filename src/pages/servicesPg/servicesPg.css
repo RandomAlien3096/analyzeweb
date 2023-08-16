@@ -1,11 +1,198 @@
 .analyzeweb__servicesPg{
-    display: flex;
-    height: 50vh;
+    display: grid;
+    height: 100vh;
     width: 100vw;
-    justify-content: center;
-    align-items: center;
+    overflow: hidden;
+    position: relative;
+    place-items: center;
 }
 
 .analyzeweb__servicesPg-header{
     border: 1px solid red;
+}
+
+.analyzeweb__servicesPg-content {
+    aspect-ratio: 1.618;
+    width: 90vmin;
+    position: relative;
+}
+
+.analyzeweb__servicesPg-content > .analyzeweb__servicesPg-content_shape {
+    height: 30%;
+    width: 30%;
+    background-color: rgba(255, 255, 255 / 5%);
+    position: absolute;
+    transition: left, top, height, width, border-radius;
+    transition-duration: 750ms;
+    transition-timing-function: ease-in-out;
+}
+
+.analyzeweb__servicesPg-content_shape h2{
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: #F9FBFD;
+    font-family: 'Montserrat';
+    word-wrap: break-word;
+    font-size: 150%;
+    font-weight: 600;
+    transition-duration: 750ms;
+}
+
+
+.analyzeweb__servicesPg-content > .analyzeweb__servicesPg-content_shape:nth-child(1) {
+    background-color: #000;
+}
+.analyzeweb__servicesPg-content > .analyzeweb__servicesPg-content_shape:nth-child(2) {
+    background-color: #009FE3;
+}
+.analyzeweb__servicesPg-content > .analyzeweb__servicesPg-content_shape:nth-child(3) {
+    background-color: #A0D9F6;
+}
+.analyzeweb__servicesPg-content_shape:nth-child(3) h2{
+    font-size: 100%;
+}
+
+.analyzeweb__servicesPg-content > .analyzeweb__servicesPg-content_shape:nth-child(4) {
+    background-color: #FF4C4C;
+}
+
+.analyzeweb__servicesPg-content > .analyzeweb__servicesPg-content_shape:nth-child(5) {
+    background-color: #6200ea;
+}
+.analyzeweb__servicesPg-content > .analyzeweb__servicesPg-content_shape:nth-child(6) {
+    background-color: #E2CD12;
+}
+.analyzeweb__servicesPg-content > .analyzeweb__servicesPg-content_shape:nth-child(7) {
+    background-color: #1CD518;
+}
+
+.analyzeweb__servicesPg-content[data-configuration="1"] > .analyzeweb__servicesPg-content_shape:nth-child(1) {
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 45%;
+}
+.analyzeweb__servicesPg-content[data-configuration="1"] > .analyzeweb__servicesPg-content_shape:nth-child(2) {
+    left: 15%;
+    top: 50%;
+    height: 50%;
+    width: 30%;
+}
+.analyzeweb__servicesPg-content[data-configuration="1"] > .analyzeweb__servicesPg-content_shape:nth-child(3) {
+    left: 30%;
+    top: 75%;
+    height: 25%;
+    width: 15%;
+}
+.analyzeweb__servicesPg-content[data-configuration="1"] > .analyzeweb__servicesPg-content_shape:nth-child(4) {
+    left: 45%;
+    top: 0%;
+    height: 50%;
+    width: 32%;
+}
+.analyzeweb__servicesPg-content[data-configuration="1"] > .analyzeweb__servicesPg-content_shape:nth-child(5) {
+    left: 45%;
+    top: 50%;
+    height: 50%;
+    width: 40%;
+}
+.analyzeweb__servicesPg-content[data-configuration="1"] > .analyzeweb__servicesPg-content_shape:nth-child(6) {
+    left: 77%;
+    top: 0%;
+    height: 50%;
+    width: 23%;
+}
+.analyzeweb__servicesPg-content[data-configuration="1"] > .analyzeweb__servicesPg-content_shape:nth-child(7) {
+    left: 85%;
+    top: 50%;
+    height: 50%;
+    width: 15%;
+}
+
+.analyzeweb__servicesPg-content[data-configuration="2"] > .analyzeweb__servicesPg-content_shape:nth-child(1) {
+    left: 80%;
+    top: 0%;
+    height: 100%;
+    width: 20%;
+}
+.analyzeweb__servicesPg-content[data-configuration="2"] > .analyzeweb__servicesPg-content_shape:nth-child(2) {
+    left: 0%;
+    top: 0%;
+    height: 80%;
+    width: 15%;
+}
+.analyzeweb__servicesPg-content[data-configuration="2"] > .analyzeweb__servicesPg-content_shape:nth-child(3) {
+    left: 30%;
+    top: 40%;
+    height: 30%;
+    width: 10%;
+}
+.analyzeweb__servicesPg-content[data-configuration="2"] > .analyzeweb__servicesPg-content_shape:nth-child(4) {
+    left: 65%;
+    top: 10%;
+    height: 70%;
+    width: 15%;
+}
+.analyzeweb__servicesPg-content[data-configuration="2"] > .analyzeweb__servicesPg-content_shape:nth-child(5) {
+    left: 40%;
+    top: 50%;
+    height: 50%;
+    width: 10%;
+}
+.analyzeweb__servicesPg-content[data-configuration="2"] > .analyzeweb__servicesPg-content_shape:nth-child(6) {
+    left: 50%;
+    top: 40%;
+    height: 50%;
+    width: 15%;
+}
+.analyzeweb__servicesPg-content[data-configuration="2"] > .analyzeweb__servicesPg-content_shape:nth-child(7) {
+    left: 15%;
+    top: 30%;
+    height: 60%;
+    width: 15%;
+}
+
+.analyzeweb__servicesPg-content[data-roundness="1"] > .analyzeweb__servicesPg-content_shape:nth-child(1){
+    border-top-right-radius: 300px;
+}
+.analyzeweb__servicesPg-content[data-roundness="1"] > .analyzeweb__servicesPg-content_shape:nth-child(2){
+    border-radius: 0px 150px 0px 0px;
+}
+.analyzeweb__servicesPg-content[data-roundness="1"] > .analyzeweb__servicesPg-content_shape:nth-child(3){
+    border-radius: 90px 0px 0px 0px;
+}
+.analyzeweb__servicesPg-content[data-roundness="1"] > .analyzeweb__servicesPg-content_shape:nth-child(3) h2{
+    left: 40%;
+}
+
+
+.analyzeweb__servicesPg-content[data-roundness="1"] > .analyzeweb__servicesPg-content_shape:nth-child(4){
+    border-radius: 100%;
+}
+.analyzeweb__servicesPg-content[data-roundness="1"] > .analyzeweb__servicesPg-content_shape:nth-child(4) h2{
+    left: 30%;
+}
+
+
+.analyzeweb__servicesPg-content[data-roundness="1"] > .analyzeweb__servicesPg-content_shape:nth-child(5){
+    border-radius: 30% 30% 0 0;
+}
+.analyzeweb__servicesPg-content[data-roundness="1"] > .analyzeweb__servicesPg-content_shape:nth-child(6){
+    border-radius: 0 0 150px 150px;
+}
+.analyzeweb__servicesPg-content[data-roundness="1"] > .analyzeweb__servicesPg-content_shape:nth-child(7){
+    border-radius: 150px 0 0 0;
+}
+.analyzeweb__servicesPg-content[data-roundness="1"] > .analyzeweb__servicesPg-content_shape:nth-child(7) h2{
+    left: 35%;
+}
+
+.analyzeweb__servicesPg-content[data-roundness="2"] > .analyzeweb__servicesPg-content_shape{
+    border-radius: 0%;
+}
+.analyzeweb__servicesPg-content[data-roundness="3"] > .analyzeweb__servicesPg-content_shape{
+    border-radius: 6rem;
 }

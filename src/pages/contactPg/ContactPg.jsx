@@ -37,14 +37,14 @@ function DatagovPg() {
 
             <div className = "analyzeweb__contactPg-content">
                 <div className = "analyzeweb__contactPg-content_title">
-                    <h1>Hablemos con un cafe</h1>
+                    <h1>Hablemos con un café</h1>
                     <h1>Platicanos sobre tu proyecto</h1>
                     <h4>Creemos algo juntos</h4>
                 </div>
             </div>
             <div className = "analyzeweb__contactPg-form">
                 <div className = "analyzeweb__contactPg-form_title">
-                    <h2>Como podemos ayudar?</h2>
+                    <h2>¿Como podemos ayudar?</h2>
                 </div>
 
 
