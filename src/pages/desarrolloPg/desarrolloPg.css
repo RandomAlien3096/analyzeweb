@@ -1,0 +1,49 @@
+.analyzeweb__desarrolloPg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.analyzeweb__desarrolloPg-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.analyzeweb__desarrolloPg-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    border: 1px solid red;
+}
+
+.analyzeweb__desarrolloPg-content > #card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 596px;
+    width: 264px;
+    border: 1px solid cyan;
+}
+
+#card-top{
+    border: 1px solid pink;
+}
+
+.analyzeweb__desarrolloPg-content > #card hr{
+    width: 90%;
+}
+
+#card-description{
+    height: 216px;
+    width: 19 6px;
+    padding: 14px;
+    border: 1px solid peru;
+}

@@ -80,7 +80,7 @@ const ServicesPg = () => {
               <div className='analyzeweb__servicesPg-content_shape'><h2>Estrategia de Información</h2></div>
             </Link>
             
-            <Link className='analyzeweb__servicesPg-content_shape' onClick={event => handleClick(event, '3')} to = '/project3'>
+            <Link className='analyzeweb__servicesPg-content_shape' onClick={event => handleClick(event, '3')} to = '/desarrolloPg'>
               <div className='analyzeweb__servicesPg-content_shape'><h2>Desarrollo Web</h2></div>
             </Link>
 
