@@ -3,8 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
     width: 100vw;
+    padding-top: 9rem;
 }
 .analyzeweb__desarrolloPg h1,
 .analyzeweb__desarrolloPg h2,
@@ -24,20 +25,28 @@
     align-items: center;
     width: 100vw;
     padding: 1.5rem;
-    border: 1px solid red;
 }
 .analyzeweb__desarrolloPg-header h1{
     font-weight: 400;
     font-size: 54px;
+    color: #20272C;
+    margin-bottom: 1rem;
+}
+
+.analyzeweb__desarrolloPg-header h3{
+    font-weight: 300;
+    font-size: 26px;
+    color: #3b4b57;
 }
 
 .analyzeweb__desarrolloPg-content{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 100vw;
     padding: 3rem;
-    border: 1px solid red;
+    padding-left: 18rem;
+    padding-right: 18rem;
 }
 
 .analyzeweb__desarrolloPg-content > #card{
@@ -45,10 +54,9 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-    height: 596px;
-    width: 264px;
+    height: 636px;
+    width: 294px;
     box-shadow: 0 0 9px #888888;
 }
 .analyzeweb__desarrolloPg-content > #card:hover{
@@ -62,17 +70,70 @@
     transition: 0.1s ease;
 }
 
-#card-top{
-    border: 1px solid cyan;
+.analyzeweb__desarrolloPg-content > #card > #card-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 288px;
+}
+.analyzeweb__desarrolloPg-content > #card > #card-top h4{
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 15%;
+}
+.analyzeweb__desarrolloPg-content > #card > #card-top h5{
+    font-weight: 500;
+    font-size: 24px;
+    color: #20272C;
+    margin-top: 9px;
+}
+.analyzeweb__desarrolloPg-content > #card > #card-top h3{
+    font-weight: 300;
+    font-size: 22px;
+    color: #20272C;
+    margin-top: 32px;
+}
+.analyzeweb__desarrolloPg-content > #card > #card-top p{
+    font-weight: 300;
+    font-size: 15px;
+    color: #3b4b57;
+}
+.analyzeweb__desarrolloPg-content > #card > #card-top button{
+    margin-top: 32px;
+    height: 40px;
+    width: 120px;
+    border: 0;
+    border-radius: 6px;
+    background-color: #1A73E8;
+    cursor: pointer;
+}
+.analyzeweb__desarrolloPg-content > #card > #card-top button span{
+    font-weight: 500;
+    color: #F0F6FD;
 }
 
 .analyzeweb__desarrolloPg-content > #card hr{
     width: 90%;
+    margin: 1rem;
+    border: 1px solid #3b4b576b;
 }
 
-#card-description{
+.analyzeweb__desarrolloPg-content > #card > #card-description{
     height: 216px;
-    width: 19 6px;
-    padding: 14px;
-    border: 1px solid peru;
+    width: 100%;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.analyzeweb__desarrolloPg-content > #card > #card-description h5{
+    font-weight: 300;
+    font-size: 15px;
+    color: #3b4b57;
+}
+.analyzeweb__desarrolloPg-content > #card > #card-description ul{
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #3b4b57;
 }
