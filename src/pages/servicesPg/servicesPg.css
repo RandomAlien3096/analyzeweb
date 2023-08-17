@@ -196,3 +196,13 @@
 .analyzeweb__servicesPg-content[data-roundness="3"] > .analyzeweb__servicesPg-content_shape{
     border-radius: 6rem;
 }
+
+@media screen and (max-width: 650px){
+    .analyzeweb__servicesPg-content_shape h2{
+        font-size: 70%;
+        font-weight: 400;
+    }
+    .analyzeweb__servicesPg-content_shape:nth-child(3) h2{
+        font-size: 50%;
+    }
+}
