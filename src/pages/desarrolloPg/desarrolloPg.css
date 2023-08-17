@@ -6,13 +6,29 @@
     height: 100vh;
     width: 100vw;
 }
+.analyzeweb__desarrolloPg h1,
+.analyzeweb__desarrolloPg h2,
+.analyzeweb__desarrolloPg h3,
+.analyzeweb__desarrolloPg h4,
+.analyzeweb__desarrolloPg h5,
+.analyzeweb__desarrolloPg p,
+.analyzeweb__desarrolloPg li{
+    font-family: 'Montserrat';
+}
+
 
 .analyzeweb__desarrolloPg-header{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100vw;
+    padding: 1.5rem;
     border: 1px solid red;
+}
+.analyzeweb__desarrolloPg-header h1{
+    font-weight: 400;
+    font-size: 54px;
 }
 
 .analyzeweb__desarrolloPg-content{
@@ -20,21 +36,34 @@
     justify-content: center;
     align-items: center;
     width: 100vw;
+    padding: 3rem;
     border: 1px solid red;
 }
 
 .analyzeweb__desarrolloPg-content > #card{
+    position: relative;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     height: 596px;
     width: 264px;
-    border: 1px solid cyan;
+    box-shadow: 0 0 9px #888888;
+}
+.analyzeweb__desarrolloPg-content > #card:hover{
+    border-radius: inherit;
+    border: 4px solid transparent;
+    border-image: linear-gradient(60deg, rgba(253,206,20,1) 20%, 
+                                          rgba(244,94,172,1) 40%, 
+                                          rgba(25,109,175,1) 60%, 
+                                          rgba(37,171,190,1) 80%);
+    border-image-slice: 1;
+    transition: 0.1s ease;
 }
 
 #card-top{
-    border: 1px solid pink;
+    border: 1px solid cyan;
 }
 
 .analyzeweb__desarrolloPg-content > #card hr{
