@@ -8,6 +8,8 @@
     padding: 6vmin;
     position: fixed !important;
     z-index: 6;
+    -webkit-backdrop-filter: blur(8px); 
+   backdrop-filter: blur(8px);
 }
 
 .analyzeweb__navbar-logo {
