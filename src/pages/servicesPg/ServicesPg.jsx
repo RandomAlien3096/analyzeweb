@@ -76,7 +76,7 @@ const ServicesPg = () => {
               <div className='analyzeweb__servicesPg-content_shape'><h2>Gobernación de Datos</h2></div>
             </Link>
 
-            <Link className='analyzeweb__servicesPg-content_shape' onClick={event => handleClick(event, '2')} to = '/project2'>
+            <Link className='analyzeweb__servicesPg-content_shape' onClick={event => handleClick(event, '2')} to = '/DatastratPg'>
               <div className='analyzeweb__servicesPg-content_shape'><h2>Estrategia de Información</h2></div>
             </Link>
             
@@ -84,15 +84,15 @@ const ServicesPg = () => {
               <div className='analyzeweb__servicesPg-content_shape'><h2>Desarrollo Web</h2></div>
             </Link>
 
-            <Link className='analyzeweb__servicesPg-content_shape' onClick={event => handleClick(event, '4')} to = '/project4'>
+            <Link className='analyzeweb__servicesPg-content_shape' onClick={event => handleClick(event, '4')} to = '/biPg'>
               <div className='analyzeweb__servicesPg-content_shape'><h2>Inteligencia de Negocios</h2></div>
             </Link>
 
-            <Link className='analyzeweb__servicesPg-content_shape' onClick={event => handleClick(event, '5')} to = '/project5'>
+            <Link className='analyzeweb__servicesPg-content_shape' onClick={event => handleClick(event, '5')} to = '/OptimizacionPg'>
               <div className='analyzeweb__servicesPg-content_shape'><h2>Optimización Economica</h2></div>
             </Link>
 
-            <Link className='analyzeweb__servicesPg-content_shape' onClick={event => handleClick(event, '6')} to = '/project6'>
+            <Link className='analyzeweb__servicesPg-content_shape' onClick={event => handleClick(event, '6')} to = '/ModelosPg'>
               <div className='analyzeweb__servicesPg-content_shape'><h2>Modelos Predictivos</h2></div>
             </Link>
 
