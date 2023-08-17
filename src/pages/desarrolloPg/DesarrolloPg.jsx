@@ -2,9 +2,14 @@ import React from 'react';
 import './desarrolloPg.css';
 import { Navbar, Footer } from '../../components';
 import { AiOutlineCheck } from "react-icons/ai";
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 function DesarrolloPg() {
+
+  const scrollTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  };
 
   const listBasico = [
     '1 pagina web landing',
@@ -52,9 +57,11 @@ function DesarrolloPg() {
               <h5>1 Pagina Web</h5>
               <h3>$ 199</h3>
               <p>Pago unico *</p>
-              <button>
-                <span>Inicia Hoy</span>
-              </button>
+              <Link to = '/ContactPg' onClick = {scrollTop}>
+                <button type = 'button' onClick = {scrollTop}>
+                  <span>Inicia Hoy</span>
+                </button>
+              </Link>
             </div>
             <hr></hr>
             <div id='card-description'>
@@ -76,9 +83,11 @@ function DesarrolloPg() {
               <h5>2 Paginas Web</h5>
               <h3>$ 299</h3>
               <p>Pago unico *</p>
-              <button>
-                <span>Inicia Hoy</span>
-              </button>
+              <Link to = '/ContactPg' onClick = {scrollTop}>
+                <button type = 'button' onClick = {scrollTop}>
+                  <span>Inicia Hoy</span>
+                </button>
+              </Link>
             </div>
             <hr></hr>
             <div id='card-description'>
@@ -100,9 +109,11 @@ function DesarrolloPg() {
               <h5>3 Paginas Web</h5>
               <h3>$ 499</h3>
               <p>Pago unico *</p>
-              <button>
-                <span>Inicia Hoy</span>
-              </button>
+              <Link to = '/ContactPg' onClick = {scrollTop}>
+                <button type = 'button' onClick = {scrollTop}>
+                  <span>Inicia Hoy</span>
+                </button>
+              </Link>
             </div>
             <hr></hr>
             <div id='card-description'>
