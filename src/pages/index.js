@@ -7,3 +7,4 @@ export { default as DatastratPg } from './datastratPg/DatastratPg';
 export { default as DesarrolloPg } from './desarrolloPg/DesarrolloPg';
 export { default as ModelosPg } from './modelosPg/ModelosPg';
 export { default as OptimizacionPg } from './optimizacionPg/OptimizacionPg';
+export { default as BiPg } from './biPg/BiPg';

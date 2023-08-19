@@ -6,7 +6,7 @@ import { Navbar, Maps, ScrollToTop, Footer } from './components';
 import { Contact, Services, Header } from './containers';
 import { ContactPg, DatagovPg, DatastratPg, 
         DesarrolloPg, ModelosPg, OptimizacionPg, 
-        UsPg, ServicesPg } from './pages';
+        UsPg, ServicesPg, BiPg } from './pages';
 
 import { ParallaxProvider } from 'react-scroll-parallax';
 
@@ -46,6 +46,7 @@ const App = () => {
           <Route path="/DesarrolloPg" element={<DesarrolloPg />} />
           <Route path="/ModelosPg" element={<ModelosPg />} />
           <Route path="/OptimizacionPg" element={<OptimizacionPg />} />
+          <Route path="/BiPg" element={<BiPg />} />
         </Routes>
       ) : (
         // Fallback content for when JavaScript is disabled
