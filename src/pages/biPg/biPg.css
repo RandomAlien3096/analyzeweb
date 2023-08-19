@@ -1,0 +1,175 @@
+.analyzeweb__biPg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+    padding-top: 9rem;
+}
+.analyzeweb__biPg h1,
+.analyzeweb__biPg h2,
+.analyzeweb__biPg h3,
+.analyzeweb__biPg h4,
+.analyzeweb__biPg h5,
+.analyzeweb__biPg p,
+.analyzeweb__biPg li{
+    font-family: 'Montserrat';
+}
+
+
+.analyzeweb__biPg-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 1.5rem;
+}
+.analyzeweb__biPg-header h1{
+    font-weight: 400;
+    font-size: 54px;
+    color: #20272C;
+    margin-bottom: 1rem;
+}
+
+.analyzeweb__biPg-header h3{
+    font-weight: 300;
+    font-size: 26px;
+    color: #3b4b57;
+}
+
+.analyzeweb__biPg-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    padding: 3rem;
+    padding-left: 18rem;
+    padding-right: 18rem;
+}
+
+.analyzeweb__biPg-content > #card{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 636px;
+    width: 294px;
+    box-shadow: 0 0 9px #888888;
+}
+.analyzeweb__biPg-content > #card:hover{
+    border-radius: inherit;
+    border: 4px solid transparent;
+    border-image: linear-gradient(60deg, rgba(253,206,20,1) 20%, 
+                                          rgba(244,94,172,1) 40%, 
+                                          rgba(25,109,175,1) 60%, 
+                                          rgba(37,171,190,1) 80%);
+    border-image-slice: 1;
+    transition: 0.1s ease;
+}
+
+.analyzeweb__biPg-content > #card > #card-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 288px;
+}
+.analyzeweb__biPg-content > #card > #card-top h4{
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 15%;
+}
+.analyzeweb__biPg-content > #card > #card-top h5{
+    font-weight: 500;
+    font-size: 24px;
+    color: #20272C;
+    margin-top: 9px;
+}
+.analyzeweb__biPg-content > #card > #card-top h3{
+    font-weight: 300;
+    font-size: 22px;
+    color: #20272C;
+    margin-top: 32px;
+}
+.analyzeweb__biPg-content > #card > #card-top p{
+    font-weight: 300;
+    font-size: 15px;
+    color: #3b4b57;
+}
+.analyzeweb__biPg-content > #card > #card-top button{
+    margin-top: 32px;
+    height: 40px;
+    width: 120px;
+    border: 0;
+    border-radius: 6px;
+    background-color: #1A73E8;
+    cursor: pointer;
+}
+.analyzeweb__biPg-content > #card > #card-top button span{
+    font-weight: 500;
+    color: #F0F6FD;
+}
+
+.analyzeweb__biPg-content > #card hr{
+    width: 90%;
+    margin: 1rem;
+    border: 1px solid #3b4b576b;
+}
+
+.analyzeweb__biPg-content > #card > #card-description{
+    height: 216px;
+    width: 100%;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.analyzeweb__biPg-content > #card > #card-description h5{
+    font-weight: 300;
+    font-size: 15px;
+    color: #3b4b57;
+}
+.analyzeweb__biPg-content > #card > #card-description ul{
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #3b4b57;
+}
+
+@media screen and (max-width: 1050px){
+    .analyzeweb__biPg-content{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: 6rem;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .analyzeweb__biPg{
+        padding-top: 4rem;
+    }
+    .analyzeweb__biPg-header h1{
+        font-size: 42px;
+    }
+    .analyzeweb__biPg-header h3{
+        font-size: 18px;
+    }
+    .analyzeweb__biPg-content{
+        flex-direction: column;
+    }
+    .analyzeweb__biPg-content > #card{
+        margin-bottom: 1.5rem;
+    }
+    .analyzeweb__biPg-content > #card:nth-child(2){
+        border-radius: inherit;
+        border: 4px solid transparent;
+        border-image: linear-gradient(60deg, rgba(253,206,20,1) 20%, 
+                                              rgba(244,94,172,1) 40%, 
+                                              rgba(25,109,175,1) 60%, 
+                                              rgba(37,171,190,1) 80%);
+        border-image-slice: 1;
+        transition: 0.1s ease;
+    }
+}
