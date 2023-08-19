@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import './modelosPg.css';
 import { Navbar, Footer } from '../../components';
-import { AiOutlineCheck } from "react-icons/ai";
 import { HashLink as Link } from 'react-router-hash-link';
 
 const SECOND = 1000;
