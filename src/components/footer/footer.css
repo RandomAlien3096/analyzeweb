@@ -60,6 +60,7 @@
 .analyzeweb__footer-content_servicio-wp {
     justify-content: left;
     gap: 0.5vmin;
+    cursor: pointer;
 }
 
 /* ------------------------------------------------------------- */

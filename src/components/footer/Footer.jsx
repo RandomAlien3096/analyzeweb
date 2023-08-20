@@ -1,6 +1,7 @@
 import React from 'react';
 import './footer.css';
 import logo_dark from '../../rsrc/logo/logo_dark.png';
+import { HashLink as Link } from 'react-router-hash-link';
 
 import { BsFacebook, BsTwitter, BsInstagram, 
         BsLinkedin, BsYoutube, BsWhatsapp } from 'react-icons/bs';
@@ -31,8 +32,14 @@ const Footer = () => {
           <p>Politica de retorno</p>
           <p>atencioncliente@analyzeweb.com.gt</p>
           <div className = 'analyzeweb__footer-content_servicio-wp'>
-            <BsWhatsapp />
-            <p>(+502) 5533 - 6688</p>
+            <a 
+              href="https://wa.me/50255163181?text+Busco+de+su+apoyo+y+una+buena+taza+de+cafe%21" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <BsWhatsapp />
+              <p>(+502) 5533 - 6688</p>
+            </a>
           </div>
         </div>
         <div className = 'analyzeweb__footer-content_contacto'>
