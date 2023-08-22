@@ -36,14 +36,13 @@
     width: 20vw;
     height: 3vw;
     margin-top: 6%;
-    z-index: 2;
 }
 
-.analyzeweb__header-content_button button{
+.analyzeweb__header-content_button > #trigger{
     width: 100%;
     height: 100%;
     border-radius: 50px;
-    border: none;
+    border: 0;
     background-color: #FACEA6;
     cursor: pointer;
 }
@@ -121,7 +120,6 @@
     width: 45vw;
     height: 100%;
     mix-blend-mode: color-burn;
-    z-index: 3;
 }
 
 /*---------------------------------------------------------------------*/
@@ -148,10 +146,12 @@
         height: 10vmin;
         width: 40vw;
         cursor: pointer;
+        z-index: 4;
     }
     .analyzeweb__header-content_button > #trigger{
         height: 80%;
         width: 100%;
+        z-index: 3;
     }
     .analyzeweb__header-content_button p{
         font-size: 9px;

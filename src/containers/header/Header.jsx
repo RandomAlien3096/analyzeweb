@@ -6,6 +6,11 @@ import { Slide } from 'react-awesome-reveal';
 import graphs from '../../rsrc/imgs/abstract_data.jpg';
 
 const Header = () => {
+
+  const scrollTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  };
+
   return (
     <div className = 'analyzeweb__header'>
       <div className = 'analyzeweb__header-content'>
@@ -14,13 +19,15 @@ const Header = () => {
           <h2>MEDIANTE</h2>
           <h2>INMERSION</h2>
           <h2>DIGITAL</h2>
-          <div className = 'analyzeweb__header-content_button'>
-            <button id = 'trigger'>
-              <Link to = '/UsPg'>
-                <p>Descubre lo que hacemos</p>
-              </Link>
+          <Link 
+            to = '/UsPg' 
+            className = 'analyzeweb__header-content_button'
+            onClick={scrollTop}
+          >
+            <button type ='button' id = 'trigger' >
+              <p>Descubre lo que hacemos</p>
             </button>
-          </div>
+          </Link>
         </Slide>
       </div>
       <div className = 'analyzeweb__header-graphics'>
@@ -31,7 +38,6 @@ const Header = () => {
         </div> 
         <img src = {graphs} alt='graph deco' id='graphs' />
       </div>
-      
     </div>
   )
 }
