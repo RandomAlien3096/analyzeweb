@@ -26,6 +26,7 @@ const rand = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
 const ServicesPg = () => {
 
   const handleClick = (event, shapeNum) => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
     console.log(event.currentTarget);
     console.log('shape clicked: ' + shapeNum);
   };
@@ -96,7 +97,7 @@ const ServicesPg = () => {
               <div className='analyzeweb__servicesPg-content_shape'><h2>Modelos Predictivos</h2></div>
             </Link>
 
-            <Link className='analyzeweb__servicesPg-content_shape' onClick={event => handleClick(event, '7')} to = '/project7'>
+            <Link className='analyzeweb__servicesPg-content_shape' onClick={event => handleClick(event, '7')} to = '/ContactPg'>
               <div className='analyzeweb__servicesPg-content_shape'><h2>Contáctanos</h2></div>
             </Link>
             
