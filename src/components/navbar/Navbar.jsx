@@ -74,8 +74,11 @@ const Navbar = () => {
   const [logo, setLogo] = useState(false);
   const location = useLocation();
   const changeLogo = () => {
+  const locationArray = ["/ContactPg", "/UsPg", "/ServicesPg", "/DatagovPg", 
+                         "/DatastratPg", "/DesarrolloPg", "/ModelosPg", 
+                         "/OptimizacionPg", "/BiPg"]
     // console.log(window.scrollY)
-    if(location.pathname == '/UsPg') {
+    if(location.pathname === '/UsPg') {
       const vhEquivalent = 0.35 * window.innerHeight;
       if(window.scrollY >= vhEquivalent){
         setLogo(false)
@@ -83,6 +86,9 @@ const Navbar = () => {
       else {
         setLogo(true)
       }
+    }
+    else if(locationArray.includes(location.pathname)){
+      setLogo(false)
     }
     else {
       const vhEquivalent = 2 * window.innerHeight;
