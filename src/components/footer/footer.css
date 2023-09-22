@@ -55,6 +55,7 @@
 .analyzeweb__footer-content_servicio-wp svg {
     height: 24px;
     width: 24px;
+    cursor: pointer;
 }
 
 .analyzeweb__footer-content_servicio-wp {

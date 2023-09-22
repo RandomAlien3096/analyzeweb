@@ -19,12 +19,33 @@ const Footer = () => {
              al precio que mereces
           </p>
           <div className = 'analyzeweb__footer-content_nosotros-icons'>
-            <BsFacebook />
-            <BsTwitter />
+            
+            <a
+              href="https://www.facebook.com/analyzeweb.tech" // Replace with your Facebook page URL
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsFacebook />
+            </a>
+
+            <a 
+              href = 'https://twitter.com/analyzewebtech'
+              target = '_blank'
+              rel = 'noopener noreferrer'
+            >
+              <BsTwitter />
+            </a>
+            
             <BsInstagram />
             <BsLinkedin />
             <BsYoutube />
-            <FaTiktok />
+            <a 
+              href = 'https://www.tiktok.com/@analyzeweb' 
+              target = '_blank' 
+              rel = 'noopener noreferrer'
+            >
+              <FaTiktok />
+            </a>
           </div>
         </div>
         <div className = 'analyzeweb__footer-content_servicio'>
