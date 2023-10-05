@@ -10,7 +10,6 @@
     padding-left: 6%;
     padding-right: 6%;
     overflow: hidden;
-    border: 1px solid red;
 }
 
 .analyzeweb__header-content {
@@ -64,7 +63,6 @@
 .analyzeweb__header-graphics_blob {
     width: 75%;
     height: 80%;
-    border: 1px solid red;
 }
 #blob:nth-child(1) {
     right: 40%;
