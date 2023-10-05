@@ -10,6 +10,7 @@
     padding-left: 6%;
     padding-right: 6%;
     overflow: hidden;
+    border: 1px solid red;
 }
 
 .analyzeweb__header-content {
@@ -18,7 +19,7 @@
     justify-content: center;
     width: 35vw;
     height: 100%;
-    z-index: 2;
+    z-index: 4;
 }
 
 .analyzeweb__header-content h2{
@@ -63,10 +64,10 @@
 .analyzeweb__header-graphics_blob {
     width: 75%;
     height: 80%;
-    animation: rotate 35s infinite;
+    border: 1px solid red;
 }
 #blob:nth-child(1) {
-    right: 30%;
+    right: 40%;
     top: 10%;
     background: rgba(71,201,220,.90);
     position: absolute;
@@ -74,31 +75,31 @@
     aspect-ratio: 1;
     border-radius: 50%;
     animation: rotate 25s infinite;
-    filter: blur(100px);
+    opacity: 0.8;
 } 
 
 #blob:nth-child(2) {
     top: 22%;
-    left: 10%;
+    left: 30%;
     background: rgba(124,70,192,.8);
     position: absolute;
     width: 35vmin;
     aspect-ratio: 1;
     border-radius: 50%;
     animation: rotate 30s infinite;
-    filter: blur(100px);
+    opacity: 0.8;
 } 
 
 #blob:nth-child(3) {
     top: 35%;
-    right: 15%;
+    right: 25%;
     background: rgba(223,178,142,.8);
     position: absolute;
     width: 35vmin;
     aspect-ratio: 1;
     border-radius: 50%;
     animation: rotate 45s infinite;
-    filter: blur(100px);
+    opacity: 0.8;
 } 
 
 @keyframes rotate {
@@ -106,12 +107,22 @@
         rotate: 0deg;
     }
     50% {
-        scale: 1 1.25;
+        scale: 1 1.5;
     }
     to {
         rotate: 720deg;
     }
 }
+
+#blur {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 3;
+    backdrop-filter: blur(8vmax);
+  }
 
 #graphs {
     position: absolute;
@@ -120,6 +131,7 @@
     width: 45vw;
     height: 100%;
     mix-blend-mode: color-burn;
+    z-index: 4;
 }
 
 /*---------------------------------------------------------------------*/
