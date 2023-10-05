@@ -13,6 +13,7 @@ const Header = () => {
 
   return (
     <div className = 'analyzeweb__header'>
+      <div id = 'blur'></div>
       <div className = 'analyzeweb__header-content'>
         <Slide cascade damping={0.3}>
           <h2>CONVERSACION</h2>
