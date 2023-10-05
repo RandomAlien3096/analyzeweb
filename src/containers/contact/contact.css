@@ -55,7 +55,7 @@
 
 .analyzeweb__contact-graphics > #blob:nth-child(1) {
     right: 30%;
-    top: 10%;
+    top: 30%;
     background: rgba(71,201,220,.90);
     position: absolute;
     width: 35vmin;
@@ -63,12 +63,12 @@
     border-radius: 50%;
 
     animation: rotate 25s infinite;
-    filter: blur(200px);
+    opacity: 0.8;
 } 
 
 .analyzeweb__contact-graphics > #blob:nth-child(2) {
     top: 40%;
-    left: 10%;
+    left: 35%;
     background: rgba(124,70,192,.7);
     position: absolute;
     width: 35vmin;
@@ -76,12 +76,12 @@
     border-radius: 50%;
 
     animation: rotate 30s infinite;
-    filter: blur(200px);
+    opacity: 0.8;
 } 
 
 .analyzeweb__contact-graphics > #blob:nth-child(3) {
     top: 25%;
-    right: 15%;
+    right: 35%;
     background: rgba(223,178,142,.7);
     position: absolute;
     width: 35vmin;
@@ -89,7 +89,7 @@
     border-radius: 50%;
 
     animation: rotate 35s infinite;
-    filter: blur(200px);
+    opacity: 0.8;
 } 
 
 @keyframes rotate {
@@ -97,12 +97,20 @@
         rotate: 0deg;
     }
     50% {
-        scale: 1 1.25;
+        scale: 1 1.5;
     }
     to {
         rotate: 720deg;
     }
 }
+
+#blur_contact {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    backdrop-filter: blur(8vmax);
+  }
 
 @media screen and (max-width: 1050px) {
     .analyzeweb__contact-content_button{
