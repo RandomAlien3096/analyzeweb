@@ -10,6 +10,7 @@ const scrollTop = () => {
 
   return (
     <div className = 'analyzeweb__contact'>
+      <div id = 'blur_contact'></div>
       <div className = 'analyzeweb__contact-content'>
         <Slide cascade damping={0.3} direction='right'>
           <h2>haz de tu proyecto</h2>
