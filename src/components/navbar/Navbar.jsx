@@ -91,7 +91,7 @@ const Navbar = () => {
       setLogo(false)
     }
     else {
-      const vhEquivalent = 2 * window.innerHeight;
+      const vhEquivalent = 1.8 * window.innerHeight;
       if(window.scrollY >= vhEquivalent){
         setLogo(true)
       }

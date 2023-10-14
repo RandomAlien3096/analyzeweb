@@ -5,6 +5,7 @@ import { AiOutlineCheck } from "react-icons/ai";
 import { HashLink as Link } from 'react-router-hash-link';
 
 function DatagovPg() {
+  
   const scrollTop = () => {
     window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   };

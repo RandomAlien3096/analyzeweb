@@ -53,7 +53,7 @@
     width: 50vw;
     height: 50vh;
     margin: 12vmin;
-    background-color: rgba(241, 93, 170, 0.3);
+    background-color: rgba(240, 93, 170, 0.5);
 }
 
 .analyzeweb__contactPg-form h2, h5, button {
