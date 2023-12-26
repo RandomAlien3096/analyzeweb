@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  /* scroll-behavior: smooth; */
+   /* scroll-behavior: smooth; */
 }
 
 body {
@@ -39,7 +39,7 @@ a {
   }
 }
 @keyframes scale-up-center {
-  0% {
+  00% {
     -webkit-transform: scale(0.5);
             transform: scale(0.5);
   }
